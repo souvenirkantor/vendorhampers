@@ -1,0 +1,1130 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Desk Calendar Premium 2027 &amp; Planner Book - GHampers</title>
+  <meta name="description" content="Set kalender meja premium 2027 dengan planner book untuk memulai tahun baru dengan rapi.">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <style>
+    /* ======================================================
+       GHAMPERS PREMIUM STYLES - Detail Produk
+       ====================================================== */
+
+    :root {
+      --gold: #C9A84C;
+      --gold-light: #E8D5A3;
+      --gold-dark: #A68B3C;
+      --gold-gradient: linear-gradient(135deg, #C9A84C 0%, #E8D5A3 40%, #C9A84C 70%, #A68B3C 100%);
+      --cream: #FDF8F0;
+      --champagne: #F7F0E6;
+      --charcoal: #2A2420;
+      --warm-white: #FCF9F5;
+      --shadow-gold: rgba(201, 168, 76, 0.3);
+      --default-color: #55524d;
+      --font-heading: 'Playfair Display', serif;
+      --font-body: 'Poppins', sans-serif;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: var(--font-body);
+      color: var(--default-color);
+      background: #FCF9F5;
+      overflow-x: hidden;
+    }
+
+    ::selection {
+      background: var(--gold);
+      color: #fff;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+      font-family: var(--font-heading);
+    }
+
+    /* ---------- Premium Scrollbar ---------- */
+    ::-webkit-scrollbar {
+      width: 10px;
+    }
+    ::-webkit-scrollbar-track {
+      background: var(--cream);
+    }
+    ::-webkit-scrollbar-thumb {
+      background: var(--gold-gradient);
+      border-radius: 10px;
+      border: 2px solid var(--cream);
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: var(--gold-dark);
+    }
+
+    /* ---------- Header / Navbar ---------- */
+    #header {
+      background:
+        linear-gradient(135deg, rgba(26, 22, 20, 0.72) 0%, rgba(42, 36, 32, 0.55) 100%),
+        url('assets/img/index/Background.webp') center center / cover no-repeat;
+      box-shadow: 0 2px 25px rgba(0, 0, 0, 0.18);
+      border-bottom: 1px solid rgba(201, 168, 76, 0.2);
+    }
+
+    #header .sitename {
+      color: #FFFFFF;
+      font-family: var(--font-heading);
+      font-weight: 700;
+      font-size: 28px;
+      letter-spacing: 1px;
+      text-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
+    }
+
+    #header .navmenu ul {
+      display: flex;
+      align-items: center;
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    #header .navmenu ul li a {
+      color: #FFFFFF;
+      font-family: var(--font-body);
+      font-weight: 500;
+      font-size: 17px;
+      padding: 10px 18px;
+      transition: color 0.3s ease;
+      text-decoration: none;
+      text-shadow: 0 1px 8px rgba(0, 0, 0, 0.25);
+    }
+
+    #header .navmenu ul li a:hover,
+    #header .navmenu ul li a.active {
+      color: var(--gold-light);
+    }
+
+    #header .btn-getstarted {
+      background: var(--gold-gradient);
+      color: #fff;
+      font-family: var(--font-body);
+      font-weight: 600;
+      font-size: 15px;
+      padding: 11px 24px;
+      border-radius: 50px;
+      text-decoration: none;
+    }
+
+    #header .mobile-nav-toggle {
+      color: #FFFFFF;
+      font-size: 28px;
+    }
+
+    /* ---------- MOBILE NAVIGATION FIX ---------- */
+    @media (max-width: 1199px) {
+      #header .navmenu {
+        position: static;
+      }
+
+      #header .navmenu ul {
+        display: none !important;
+        position: fixed !important;
+        top: 0 !important;
+        left: 0 !important;
+        right: 0 !important;
+        bottom: 0 !important;
+        width: 100% !important;
+        height: 100vh !important;
+        background: 
+          linear-gradient(135deg, rgba(26,22,20,0.97) 0%, rgba(42,36,32,0.95) 100%),
+          url('assets/img/index/Background.webp') center center / cover no-repeat !important;
+        padding: 80px 20px 30px !important;
+        margin: 0 !important;
+        overflow-y: auto !important;
+        z-index: 9998 !important;
+        border-radius: 0 !important;
+        flex-direction: column !important;
+        align-items: stretch !important;
+        justify-content: flex-start !important;
+      }
+
+      /* Tampilkan saat mobile-nav-active */
+      .mobile-nav-active #header .navmenu ul {
+        display: flex !important;
+      }
+
+      #header .navmenu ul li {
+        width: 100%;
+        display: block !important;
+      }
+
+      #header .navmenu ul li a {
+        color: #FFFFFF !important;
+        font-size: 18px;
+        padding: 14px 24px !important;
+        width: 100%;
+        display: block !important;
+        text-align: left;
+        border-bottom: 1px solid rgba(255,255,255,0.05);
+        border-radius: 0 !important;
+        background: transparent !important;
+      }
+
+      #header .navmenu ul li a:hover,
+      #header .navmenu ul li a.active {
+        color: var(--gold-light) !important;
+        background: rgba(201,168,76,0.12) !important;
+      }
+
+      #header .btn-getstarted {
+        display: none !important;
+      }
+
+      #header .mobile-nav-toggle {
+        color: #FFFFFF;
+        font-size: 28px;
+        position: relative;
+        z-index: 9999;
+      }
+
+      .mobile-nav-active {
+        overflow: hidden !important;
+      }
+    }
+
+    /* ---------- Page Title ---------- */
+    .page-title {
+      padding: 160px 0 80px;
+      position: relative;
+      background: 
+        linear-gradient(135deg, rgba(26,22,20,0.8) 0%, rgba(42,36,32,0.6) 100%),
+        url('assets/img/index/Background.webp') center center / cover no-repeat;
+      text-align: center;
+      overflow: hidden;
+    }
+
+    .page-title::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: 
+        radial-gradient(ellipse at 20% 50%, rgba(201,168,76,0.12) 0%, transparent 60%),
+        radial-gradient(ellipse at 80% 50%, rgba(201,168,76,0.08) 0%, transparent 60%);
+      z-index: 1;
+    }
+
+    .page-title .container {
+      position: relative;
+      z-index: 2;
+    }
+
+    .page-title h1 {
+      font-size: 52px;
+      font-weight: 700;
+      color: #fff;
+      font-family: var(--font-heading);
+      margin-bottom: 15px;
+      text-shadow: 0 2px 30px rgba(0,0,0,0.3);
+    }
+
+    .page-title h1::after {
+      content: '';
+      display: block;
+      width: 80px;
+      height: 3px;
+      background: var(--gold-gradient);
+      margin: 15px auto 0;
+      border-radius: 2px;
+    }
+
+    .page-title p {
+      color: rgba(255,255,255,0.85);
+      font-size: 20px;
+      font-weight: 300;
+      font-family: var(--font-body);
+      margin-bottom: 20px;
+    }
+
+    .page-title .breadcrumbs ol {
+      display: flex;
+      flex-wrap: wrap;
+      list-style: none;
+      justify-content: center;
+      padding: 0;
+      margin: 0;
+      font-size: 14px;
+      font-weight: 300;
+    }
+
+    .page-title .breadcrumbs ol li {
+      color: rgba(255,255,255,0.6);
+    }
+
+    .page-title .breadcrumbs ol li+li {
+      padding-left: 10px;
+    }
+
+    .page-title .breadcrumbs ol li+li::before {
+      content: "/";
+      display: inline-block;
+      padding-right: 10px;
+      color: rgba(255,255,255,0.3);
+    }
+
+    .page-title .breadcrumbs ol li a {
+      color: var(--gold-light);
+      transition: color 0.3s ease;
+    }
+
+    .page-title .breadcrumbs ol li a:hover {
+      color: var(--gold);
+    }
+
+    .page-title .breadcrumbs ol li.current {
+      color: var(--gold);
+    }
+
+    /* ---------- Detail Produk - UKURAN BESAR & KONSISTEN ---------- */
+    .detail-produk {
+      padding: 60px 0 80px;
+    }
+
+    .detail-produk .product-gallery {
+      position: relative;
+      border-radius: 20px;
+      overflow: hidden;
+      background: var(--cream);
+      box-shadow: 0 4px 30px rgba(0,0,0,0.05);
+    }
+
+    .detail-produk .product-gallery img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .detail-produk .product-badge {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      background: var(--gold-gradient);
+      color: #fff;
+      padding: 10px 24px;
+      border-radius: 50px;
+      font-size: 14px;
+      font-weight: 600;
+      font-family: var(--font-body);
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      box-shadow: 0 4px 20px rgba(201,168,76,0.3);
+    }
+
+    .detail-produk .product-info h2 {
+      font-family: var(--font-heading);
+      font-size: 42px;
+      font-weight: 700;
+      color: var(--charcoal);
+      margin-bottom: 15px;
+    }
+
+    .detail-produk .product-info .product-category {
+      display: inline-block;
+      background: rgba(201,168,76,0.1);
+      color: var(--gold-dark);
+      padding: 8px 24px;
+      border-radius: 50px;
+      font-size: 15px;
+      font-weight: 500;
+      font-family: var(--font-body);
+      margin-bottom: 20px;
+      border: 1px solid rgba(201,168,76,0.1);
+    }
+
+    .detail-produk .product-info .product-category i {
+      margin-right: 6px;
+    }
+
+    .detail-produk .product-info .product-price {
+      font-family: var(--font-heading);
+      font-size: 36px;
+      font-weight: 700;
+      color: var(--gold-dark);
+      margin-bottom: 20px;
+    }
+
+    .detail-produk .product-info .product-description {
+      font-size: 18px;
+      line-height: 1.9;
+      color: var(--default-color);
+      font-family: var(--font-body);
+      margin-bottom: 25px;
+    }
+
+    .detail-produk .product-info .product-features-detail {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-bottom: 30px;
+    }
+
+    .detail-produk .product-info .product-features-detail span {
+      background: var(--cream);
+      padding: 10px 20px;
+      border-radius: 50px;
+      font-size: 15px;
+      color: var(--default-color);
+      border: 1px solid rgba(201,168,76,0.06);
+      font-family: var(--font-body);
+    }
+
+    .detail-produk .product-info .product-features-detail span i {
+      color: var(--gold);
+      margin-right: 8px;
+    }
+
+    .detail-produk .product-info .product-actions-detail {
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+
+    .detail-produk .product-info .btn-wa-order-detail {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 12px;
+      background: var(--gold-gradient);
+      color: #fff;
+      padding: 18px 44px;
+      border-radius: 50px;
+      font-size: 18px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      transition: all 0.4s ease;
+      box-shadow: 0 4px 25px rgba(201,168,76,0.25);
+      text-decoration: none;
+      border: none;
+      cursor: pointer;
+      font-family: var(--font-body);
+    }
+
+    .detail-produk .product-info .btn-wa-order-detail:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 40px rgba(201,168,76,0.35);
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .detail-produk .product-info .btn-wa-order-detail i {
+      font-size: 24px;
+    }
+
+    .detail-produk .product-info .btn-back {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      background: transparent;
+      color: var(--default-color);
+      padding: 18px 34px;
+      border-radius: 50px;
+      font-size: 16px;
+      font-weight: 500;
+      transition: all 0.4s ease;
+      border: 2px solid rgba(201,168,76,0.15);
+      text-decoration: none;
+      font-family: var(--font-body);
+    }
+
+    .detail-produk .product-info .btn-back:hover {
+      background: var(--cream);
+      border-color: var(--gold);
+      color: var(--gold-dark);
+      text-decoration: none;
+    }
+
+    /* ---------- Spesifikasi - UKURAN BESAR ---------- */
+    .spesifikasi-section {
+      padding: 60px 0 80px;
+      background: var(--cream);
+    }
+
+    .spesifikasi-section .spesifikasi-item {
+      background: #fff;
+      padding: 35px 35px;
+      border-radius: 20px;
+      border: 1px solid rgba(201,168,76,0.06);
+      transition: all 0.4s ease;
+      height: 100%;
+    }
+
+    .spesifikasi-section .spesifikasi-item:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 35px rgba(0,0,0,0.04);
+      border-color: rgba(201,168,76,0.12);
+    }
+
+    .spesifikasi-section .spesifikasi-item .icon {
+      font-size: 40px;
+      color: var(--gold);
+      margin-bottom: 18px;
+      display: block;
+    }
+
+    .spesifikasi-section .spesifikasi-item h4 {
+      font-family: var(--font-heading);
+      font-size: 22px;
+      font-weight: 700;
+      color: var(--charcoal);
+      margin-bottom: 12px;
+    }
+
+    .spesifikasi-section .spesifikasi-item p {
+      font-size: 16px;
+      line-height: 1.8;
+      color: var(--default-color);
+      font-family: var(--font-body);
+      margin: 0;
+    }
+
+    /* ---------- Section Title ---------- */
+    .section-title {
+      padding-bottom: 50px;
+      position: relative;
+      text-align: center;
+    }
+
+    .section-title h2 {
+      font-size: 14px;
+      font-weight: 600;
+      padding: 0;
+      line-height: 1;
+      margin: 0 0 15px 0;
+      letter-spacing: 5px;
+      text-transform: uppercase;
+      color: var(--gold);
+      position: relative;
+      font-family: var(--font-body);
+    }
+
+    .section-title h2::before {
+      content: '';
+      width: 50px;
+      height: 2px;
+      display: inline-block;
+      background: var(--gold-gradient);
+      margin: 0 18px 0 0;
+      vertical-align: middle;
+    }
+
+    .section-title h2::after {
+      content: '';
+      width: 50px;
+      height: 2px;
+      display: inline-block;
+      background: var(--gold-gradient);
+      margin: 0 0 0 18px;
+      vertical-align: middle;
+    }
+
+    .section-title p {
+      margin: 0;
+      font-size: 40px;
+      font-weight: 700;
+      font-family: var(--font-heading);
+      color: var(--charcoal);
+      line-height: 1.15;
+    }
+
+    .section-title p span {
+      background: var(--gold-gradient);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+
+    /* ---------- Footer ---------- */
+    .footer {
+      background: linear-gradient(135deg, #1a1614 0%, #2A2420 100%);
+      color: rgba(255, 255, 255, 0.7);
+      padding: 60px 0 30px;
+      position: relative;
+    }
+
+    .footer::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 4px;
+      background: var(--gold-gradient);
+    }
+
+    .footer .sitename {
+      font-size: 26px;
+      font-weight: 700;
+      font-family: var(--font-heading);
+      background: var(--gold-gradient);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      letter-spacing: 1px;
+    }
+
+    .footer p {
+      font-weight: 400;
+      font-size: 15px;
+      line-height: 1.8;
+      font-family: var(--font-body);
+      text-align: left;
+    }
+
+    .footer h4 {
+      color: #fff;
+      font-size: 17px;
+      font-weight: 600;
+      margin-bottom: 20px;
+      font-family: var(--font-heading);
+      text-align: left;
+    }
+
+    .footer .footer-links ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      text-align: left;
+    }
+
+    .footer .footer-links ul li {
+      padding: 8px 0;
+    }
+
+    .footer .footer-links ul a {
+      color: rgba(255, 255, 255, 0.5);
+      transition: all 0.4s ease;
+      font-weight: 400;
+      font-size: 15px;
+      font-family: var(--font-body);
+      text-align: left;
+    }
+
+    .footer .footer-links ul a:hover {
+      color: var(--gold);
+      padding-left: 8px;
+    }
+
+    .footer .social-links {
+      display: flex;
+      gap: 10px;
+      justify-content: flex-start;
+    }
+
+    .footer .social-links a {
+      background: rgba(255, 255, 255, 0.04);
+      color: #fff;
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      border: 1px solid rgba(201, 168, 76, 0.1);
+      text-decoration: none;
+    }
+
+    .footer .social-links a:hover {
+      background: var(--gold-gradient);
+      transform: translateY(-4px);
+      box-shadow: 0 4px 25px rgba(201, 168, 76, 0.25);
+      border-color: transparent;
+    }
+
+    .footer .footer-contact {
+      text-align: left;
+    }
+
+    .footer .footer-contact p {
+      font-size: 15px;
+      margin-bottom: 5px;
+      font-family: var(--font-body);
+      text-align: left;
+    }
+
+    .footer .footer-contact a {
+      color: rgba(255, 255, 255, 0.5);
+      transition: color 0.4s ease;
+      font-size: 15px;
+      font-family: var(--font-body);
+      text-decoration: none;
+    }
+
+    .footer .footer-contact a:hover {
+      color: var(--gold);
+    }
+
+    .footer .copyright {
+      padding-top: 30px;
+      border-top: 1px solid rgba(255, 255, 255, 0.04);
+      font-weight: 400;
+      font-size: 14px;
+      font-family: var(--font-body);
+      text-align: center;
+    }
+
+    .footer .copyright .sitename {
+      font-size: 15px;
+    }
+
+    /* ---------- Footer Responsive ---------- */
+    @media (max-width: 768px) {
+      .footer .footer-about {
+        text-align: center;
+      }
+      .footer .footer-about p {
+        text-align: center;
+      }
+      .footer .footer-links ul {
+        text-align: center;
+      }
+      .footer .footer-links ul a {
+        text-align: center;
+        display: block;
+      }
+      .footer .social-links {
+        justify-content: center;
+      }
+      .footer .footer-contact {
+        text-align: center;
+        margin-top: 20px;
+      }
+      .footer .footer-contact p {
+        text-align: center;
+      }
+      .footer h4 {
+        text-align: center;
+      }
+    }
+
+    @media (max-width: 576px) {
+      .footer .sitename {
+        font-size: 22px;
+      }
+      .footer .footer-about {
+        text-align: center;
+      }
+      .footer .footer-about p {
+        text-align: center;
+      }
+      .footer .footer-links ul {
+        text-align: center;
+      }
+      .footer .footer-links ul a {
+        text-align: center;
+        display: block;
+      }
+      .footer .social-links {
+        justify-content: center;
+      }
+      .footer .footer-contact {
+        text-align: center;
+      }
+      .footer .footer-contact p {
+        text-align: center;
+      }
+      .footer h4 {
+        text-align: center;
+      }
+    }
+
+    /* ---------- Floating WhatsApp ---------- */
+    .wa-float {
+      position: fixed;
+      bottom: 30px;
+      right: 30px;
+      background: var(--gold-gradient);
+      color: #fff;
+      width: 60px;
+      height: 60px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 30px;
+      box-shadow: 0 4px 35px rgba(201,168,76,0.35);
+      transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      z-index: 999;
+      text-decoration: none;
+      border: none;
+    }
+
+    .wa-float:hover {
+      transform: scale(1.1) translateY(-5px);
+      box-shadow: 0 8px 50px rgba(201,168,76,0.45);
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .wa-float::after {
+      content: '';
+      position: absolute;
+      inset: -4px;
+      border-radius: 50%;
+      border: 2px solid rgba(201,168,76,0.2);
+      animation: wa-pulse 2s ease-in-out infinite;
+    }
+
+    @keyframes wa-pulse {
+      0% { transform: scale(1); opacity: 1; }
+      100% { transform: scale(1.4); opacity: 0; }
+    }
+
+    /* ---------- Scroll Top ---------- */
+    .scroll-top {
+      position: fixed;
+      visibility: hidden;
+      opacity: 0;
+      right: 30px;
+      bottom: 100px;
+      z-index: 99999;
+      background: var(--gold-gradient);
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      transition: all 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+      box-shadow: 0 4px 25px rgba(201,168,76,0.25);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-decoration: none;
+      border: none;
+      cursor: pointer;
+    }
+
+    .scroll-top i {
+      font-size: 24px;
+      color: #fff;
+      line-height: 0;
+    }
+
+    .scroll-top.active {
+      visibility: visible;
+      opacity: 1;
+      bottom: 100px;
+    }
+
+    .scroll-top:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 35px rgba(201,168,76,0.35);
+      text-decoration: none;
+    }
+
+    /* ---------- Responsive Detail ---------- */
+    @media (max-width: 992px) {
+      .page-title h1 { font-size: 40px; }
+      .detail-produk .product-info h2 { font-size: 36px; }
+      .detail-produk .product-info .product-price { font-size: 32px; }
+      .detail-produk .product-info .product-description { font-size: 17px; }
+    }
+
+    @media (max-width: 768px) {
+      .page-title { padding: 130px 0 60px; }
+      .page-title h1 { font-size: 32px; }
+      .page-title p { font-size: 17px; }
+      .detail-produk .product-info h2 { font-size: 30px; }
+      .detail-produk .product-info .product-price { font-size: 28px; }
+      .detail-produk .product-info .product-description { font-size: 16px; }
+      .detail-produk .product-info .product-features-detail span { font-size: 14px; padding: 8px 16px; }
+      .detail-produk .product-info .product-actions-detail {
+        flex-direction: column;
+      }
+      .detail-produk .product-info .btn-wa-order-detail {
+        width: 100%;
+        justify-content: center;
+        padding: 16px 24px;
+        font-size: 16px;
+      }
+      .detail-produk .product-info .btn-back {
+        width: 100%;
+        justify-content: center;
+        padding: 16px 24px;
+        font-size: 15px;
+      }
+      .spesifikasi-section .spesifikasi-item {
+        padding: 25px;
+      }
+      .spesifikasi-section .spesifikasi-item h4 { font-size: 20px; }
+      .spesifikasi-section .spesifikasi-item p { font-size: 15px; }
+      .section-title p { font-size: 28px; }
+    }
+
+    @media (max-width: 576px) {
+      .page-title h1 { font-size: 26px; }
+      .page-title p { font-size: 15px; }
+      .detail-produk .product-info h2 { font-size: 24px; }
+      .detail-produk .product-info .product-price { font-size: 24px; }
+      .detail-produk .product-info .product-description { font-size: 15px; }
+      .detail-produk .product-badge { font-size: 11px; padding: 6px 16px; }
+      .detail-produk .product-info .product-features-detail span { font-size: 13px; padding: 6px 14px; }
+      .spesifikasi-section .spesifikasi-item h4 { font-size: 18px; }
+      .spesifikasi-section .spesifikasi-item p { font-size: 14px; }
+      .section-title p { font-size: 24px; }
+      .section-title h2 { font-size: 11px; letter-spacing: 3px; }
+    }
+  </style>
+</head>
+
+<body>
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center text-decoration-none">
+        <h1 class="sitename">GHampers</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html">Beranda</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="produk.html" class="active">Produk</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li><a href="galeri.html">Galeri</a></li>
+          <li><a href="kontak.html">Kontak</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted d-none d-lg-inline-flex text-decoration-none" href="https://wa.me/6288989643555?text=Halo%20GHampers%2C%20saya%20ingin%20tanya-tanya%20soal%20hampers" target="_blank" rel="noopener"><i class="bi bi-whatsapp me-1"></i> Chat WhatsApp</a>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title dark-background">
+      <div class="container position-relative">
+        <h1>Desk Calendar Premium 2027 &amp; Planner Book</h1>
+        <p>Set kalender meja premium 2027 dengan planner book untuk memulai tahun baru dengan rapi</p>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="produk.html">Produk</a></li>
+            <li class="current">Desk Calendar Premium 2027 &amp; Planner Book</li>
+          </ol>
+        </nav>
+      </div>
+    </div>
+
+    <!-- Detail Produk -->
+    <section class="detail-produk">
+      <div class="container">
+        <div class="row g-5">
+
+          <!-- Gambar Produk -->
+          <div class="col-lg-6">
+            <div class="product-gallery" data-aos="fade-right">
+              <img src="assets/img/produk/kalender.webp" alt="Desk Calendar Premium 2027 &amp; Planner Book">
+              <span class="product-badge">New 2027</span>
+            </div>
+          </div>
+
+          <!-- Info Produk -->
+          <div class="col-lg-6">
+            <div class="product-info" data-aos="fade-left">
+              <span class="product-category"><i class="bi bi-calendar-event"></i> Hampers Tahun Baru</span>
+              <h2>Desk Calendar Premium 2027 &amp; Planner Book</h2>
+              <div class="product-price">Rp 195.000</div>
+              <p class="product-description">
+                Set kalender meja premium 2027 dengan planner book untuk memulai tahun baru dengan rapi dan terorganisir. 
+                Kalender meja dengan desain premium yang elegan, dilengkapi dengan planner book berkualitas tinggi untuk 
+                mencatat jadwal dan rencana tahun 2027. Dikemas dengan custom cover yang eksklusif, menjadikannya hadiah 
+                sempurna untuk kolega, klien, atau sebagai hadiah tahun baru untuk orang terkasih.
+              </p>
+              <div class="product-features-detail">
+                <span><i class="bi bi-check-circle-fill"></i> Calendar 2027</span>
+                <span><i class="bi bi-check-circle-fill"></i> Planner Book</span>
+                <span><i class="bi bi-check-circle-fill"></i> Premium Design</span>
+                <span><i class="bi bi-check-circle-fill"></i> Custom Cover</span>
+                <span><i class="bi bi-check-circle-fill"></i> High Quality</span>
+                <span><i class="bi bi-check-circle-fill"></i> Hadiah Produktif</span>
+              </div>
+              <div class="product-actions-detail">
+                <a href="https://wa.me/6288989643555?text=Halo%20GHampers%2C%20saya%20tertarik%20dengan%20Desk%20Calendar%20Premium%202027%20%26%20Planner%20Book%20(Rp%20195.000)" target="_blank" rel="noopener" class="btn-wa-order-detail">
+                  <i class="bi bi-whatsapp"></i> Pesan Sekarang
+                </a>
+                <a href="produk.html" class="btn-back">
+                  <i class="bi bi-arrow-left"></i> Kembali ke Produk
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Spesifikasi / Keunggulan -->
+    <section class="spesifikasi-section">
+      <div class="container">
+        <div class="section-title" data-aos="fade-up">
+          <h2>Keunggulan</h2>
+          <p>Kenapa Memilih <span>Desk Calendar Premium 2027 &amp; Planner Book</span>?</p>
+        </div>
+        <div class="row g-4">
+
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="spesifikasi-item">
+              <span class="icon"><i class="bi bi-calendar3"></i></span>
+              <h4>Kalender Premium 2027</h4>
+              <p>Kalender meja dengan desain elegan dan kertas berkualitas tinggi untuk tampilan yang mewah.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="spesifikasi-item">
+              <span class="icon"><i class="bi bi-book"></i></span>
+              <h4>Planner Book Berkualitas</h4>
+              <p>Buku perencana dengan kertas premium untuk mencatat jadwal dan rencana tahun 2027.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="spesifikasi-item">
+              <span class="icon"><i class="bi bi-palette"></i></span>
+              <h4>Desain Eksklusif</h4>
+              <p>Custom cover dengan desain premium yang elegan dan berkelas.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="spesifikasi-item">
+              <span class="icon"><i class="bi bi-rocket"></i></span>
+              <h4>Mulai Tahun Baru dengan Rapi</h4>
+              <p>Hadiah sempurna untuk memulai tahun 2027 dengan produktivitas dan keteraturan.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer id="footer" class="footer dark-background">
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-4 col-md-6 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center text-decoration-none">
+            <span class="sitename">GHampers</span>
+          </a>
+          <p>Studio hampers &amp; corporate gift yang membantu Anda menghadirkan kado bermakna untuk setiap momen berharga — mulai dari souvenir kantor hingga corporate gift eksklusif.</p>
+          <div class="social-links d-flex mt-3">
+            <a href="https://wa.me/6288989643555?text=Halo%20GHampers%2C%20saya%20ingin%20tanya-tanya%20soal%20hampers" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="bi bi-whatsapp"></i></a>
+            <a href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+            <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a>
+            <a href="#" aria-label="TikTok"><i class="bi bi-tiktok"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Jelajahi</h4>
+          <ul>
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="produk.html">Produk</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="galeri.html">Galeri</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-md-3 footer-links">
+          <h4>Kategori Produk</h4>
+          <ul>
+            <li><a href="produk.html#lebaran">Hampers Lebaran</a></li>
+            <li><a href="produk.html#natal">Hampers Natal</a></li>
+            <li><a href="produk.html#tahunbaru">Hampers Tahun Baru</a></li>
+            <li><a href="produk.html#souvenir">Souvenir &amp; Merchandise</a></li>
+            <li><a href="produk.html#corporate">Corporate Gift</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4 col-md-6 footer-contact">
+          <h4>Hubungi Kami</h4>
+          <p><strong>WhatsApp:</strong> <a href="https://wa.me/6288989643555" target="_blank" rel="noopener">+6288989643555</a></p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>2026</span> <strong class="px-1 sitename">GHampers</strong> <span>All Rights Reserved</span></p>
+    </div>
+
+  </footer>
+
+  <!-- Floating WhatsApp Button -->
+  <a href="https://wa.me/6288989643555?text=Halo%20GHampers%2C%20saya%20ingin%20tanya-tanya%20soal%20hampers" target="_blank" rel="noopener" class="wa-float" aria-label="Chat WhatsApp">
+    <i class="bi bi-whatsapp"></i>
+  </a>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center">
+    <i class="bi bi-arrow-up-short"></i>
+  </a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+  <script>
+    AOS.init({
+      duration: 800,
+      easing: 'ease-in-out',
+      once: true
+    });
+  </script>
+
+</body>
+
+</html>

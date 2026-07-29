@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <!-- ============================================================
+       HALAMAN UTAMA - HIGH PRIORITY
+       ============================================================ -->
+
+  <!-- Halaman Beranda -->
+  <url>
+    <loc>https://ghampers.vercel.app/</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://ghampers.vercel.app/assets/img/favicon.png</image:loc>
+      <image:title>GHampers - Hampers Custom Premium</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ghampers.vercel.app/index.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- ============================================================
+       HALAMAN STATIS - HIGH PRIORITY
+       ============================================================ -->
+
+  <url>
+    <loc>https://ghampers.vercel.app/produk.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://ghampers.vercel.app/about.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://ghampers.vercel.app/blog.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://ghampers.vercel.app/galeri.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://ghampers.vercel.app/kontak.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- ============================================================
+       BLOG DETAIL ARTICLES - MEDIUM PRIORITY
+       ============================================================ -->
+
+  <url>
+    <loc>https://ghampers.vercel.app/blog-detail-5-tips-memilih-hampers.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://ghampers.vercel.app/assets/img/blog/5 tips.webp</image:loc>
+      <image:title>5 Tips Memilih Hampers yang Berkesan untuk Klien</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ghampers.vercel.app/blog-detail-ide-corporate-gift-anti-mainstream.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://ghampers.vercel.app/assets/img/blog/corporate.webp</image:loc>
+      <image:title>Ide Corporate Gift Anti Mainstream untuk Akhir Tahun</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ghampers.vercel.app/blog-detail-panduan-memilih-souvenir-kantor.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://ghampers.vercel.app/assets/img/blog/sorvenir.webp</image:loc>
+      <image:title>Panduan Memilih Souvenir Kantor Sesuai Budget</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ghampers.vercel.app/blog-detail-isi-seminar-kit-wajib.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://ghampers.vercel.app/assets/img/blog/seminar-kit.webp</image:loc>
+      <image:title>Isi Seminar Kit yang Wajib Ada agar Peserta Puas</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ghampers.vercel.app/blog-detail-custom-packaging-penting.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://ghampers.vercel.app/assets/img/blog/custom.webp</image:loc>
+      <image:title>Kenapa Custom Packaging Penting untuk Brand Anda</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ghampers.vercel.app/blog-detail-menghitung-budget-hampers.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://ghampers.vercel.app/assets/img/blog/budget.webp</image:loc>
+      <image:title>Cara Menghitung Budget Hampers untuk Acara Kantor</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ghampers.vercel.app/blog-detail-inspirasi-hampers-lebaran.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://ghampers.vercel.app/assets/img/blog/hampers lebaran.webp</image:loc>
+      <image:title>Inspirasi Hampers Lebaran yang Elegan dan Berkesan</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ghampers.vercel.app/blog-detail-tips-memilih-hampers-natal.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://ghampers.vercel.app/assets/img/blog/kolega.webp</image:loc>
+      <image:title>Tips Memilih Hampers Natal untuk Keluarga dan Kolega</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ghampers.vercel.app/blog-detail-ide-gift-tahun-baru.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://ghampers.vercel.app/assets/img/blog/ide gift.webp</image:loc>
+      <image:title>Ide Gift Tahun Baru yang Unik dan Bermakna</image:title>
+    </image:image>
+  </url>
+
+  <!-- ============================================================
+       DETAIL PRODUK - LOW PRIORITY
+       ============================================================ -->
+
+  <!-- Produk Lebaran -->
+  <url>
+    <loc>https://ghampers.vercel.app/Set-Kue-Kering-Premium.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://ghampers.vercel.app/assets/img/produk/kue kering.webp</image:loc>
+      <image:title>Set Kue Kering Premium - Hampers Lebaran</image:title>
+    </image:image>
+  </url>
+
+  <!-- Produk Natal -->
+  <url>
+    <loc>https://ghampers.vercel.app/Artisan-Chocolate-Box-&-Scented-Candle.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://ghampers.vercel.app/assets/img/produk/coklat.webp</image:loc>
+      <image:title>Artisan Chocolate Box &amp; Scented Candle - Hampers Natal</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ghampers.vercel.app/Gingerbread-Cookies-&-Mug-Tema-Natal.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://ghampers.vercel.app/assets/img/produk/gelas.webp</image:loc>
+      <image:title>Gingerbread Cookies &amp; Mug Tema Natal</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ghampers.vercel.app/Premium-Wine-&-Roasted-Nuts.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://ghampers.vercel.app/assets/img/produk/wine.webp</image:loc>
+      <image:title>Premium Wine &amp; Roasted Nuts - Hampers Natal</image:title>
+    </image:image>
+  </url>
+
+  <!-- Produk Tahun Baru -->
+  <url>
+    <loc>https://ghampers.vercel.app/Desk-Calendar-Premium-2027-&-Planner-Book.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://ghampers.vercel.app/assets/img/produk/kalender.webp</image:loc>
+      <image:title>Desk Calendar Premium 2027 &amp; Planner Book</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ghampers.vercel.app/Gourmet-Snack-Box-&-Premium-Coffee-Blend.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://ghampers.vercel.app/assets/img/produk/snack.webp</image:loc>
+      <image:title>Gourmet Snack Box &amp; Premium Coffee Blend</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ghampers.vercel.app/Tumbler-Custom-&-Diffuser-Set.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://ghampers.vercel.app/assets/img/produk/tumblers.webp</image:loc>
+      <image:title>Tumbler Custom &amp; Diffuser Set</image:title>
+    </image:image>
+  </url>
+
+  <!-- Souvenir Custom -->
+  <url>
+    <loc>https://ghampers.vercel.app/Tumbler-Custom-Logo.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://ghampers.vercel.app/assets/img/produk/tamblercustom.webp</image:loc>
+      <image:title>Tumbler Custom Logo - Souvenir Custom</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ghampers.vercel.app/Totebag-Kanvas.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://ghampers.vercel.app/assets/img/produk/totebagcustom.webp</image:loc>
+      <image:title>Totebag Kanvas - Souvenir Custom</image:title>
+    </image:image>
+  </url>
+
+  <!-- Seminar Kit -->
+  <url>
+    <loc>https://ghampers.vercel.app/Paket-Seminar-Lengkap.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://ghampers.vercel.app/assets/img/produk/seminarkit.webp</image:loc>
+      <image:title>Paket Seminar Lengkap - Seminar Kit</image:title>
+    </image:image>
+  </url>
+
+  <!-- Corporate Gift -->
+  <url>
+    <loc>https://ghampers.vercel.app/Hampers-Eksekutif.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://ghampers.vercel.app/assets/img/produk/eksekutif.webp</image:loc>
+      <image:title>Hampers Eksekutif - Corporate Gift</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ghampers.vercel.app/Parcel-Hari-Raya-Korporat.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://ghampers.vercel.app/assets/img/produk/parcelHR.webp</image:loc>
+      <image:title>Parcel Hari Raya Korporat - Corporate Gift</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://ghampers.vercel.app/Gift-Set-Apresiasi-Karyawan.html</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+    <image:image>
+      <image:loc>https://ghampers.vercel.app/assets/img/produk/apresiasi.webp</image:loc>
+      <image:title>Gift Set Apresiasi Karyawan - Corporate Gift</image:title>
+    </image:image>
+  </url>
+
+  <!-- ============================================================
+       URL REWRITE / SEO FRIENDLY - HIGH PRIORITY
+       ============================================================ -->
+
+  <!-- Hampers Lebaran -->
+  <url>
+    <loc>https://ghampers.vercel.app/hampers-lebaran</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://ghampers.vercel.app/hampers-lebaran-custom</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Hampers Natal -->
+  <url>
+    <loc>https://ghampers.vercel.app/hampers-natal</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://ghampers.vercel.app/hampers-natal-custom</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Hampers Tahun Baru -->
+  <url>
+    <loc>https://ghampers.vercel.app/hampers-tahun-baru</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://ghampers.vercel.app/hampers-tahun-baru-custom</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Souvenir & Merchandise -->
+  <url>
+    <loc>https://ghampers.vercel.app/souvenir-kantor</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://ghampers.vercel.app/souvenir-custom</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Corporate Gift -->
+  <url>
+    <loc>https://ghampers.vercel.app/corporate-gift</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://ghampers.vercel.app/corporate-gift-custom</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- ============================================================
+       BLOG SEO FRIENDLY URLS - LOW PRIORITY
+       ============================================================ -->
+
+  <url>
+    <loc>https://ghampers.vercel.app/blog/ide-hampers-lebaran</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://ghampers.vercel.app/blog/tips-memilih-hampers-klien</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://ghampers.vercel.app/blog/corporate-gift-anti-mainstream</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://ghampers.vercel.app/blog/panduan-souvenir-kantor</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://ghampers.vercel.app/blog/isi-seminar-kit</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://ghampers.vercel.app/blog/custom-packaging-penting</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://ghampers.vercel.app/blog/menghitung-budget-hampers</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://ghampers.vercel.app/blog/tips-memilih-hampers-natal</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://ghampers.vercel.app/blog/ide-gift-tahun-baru</loc>
+    <lastmod>2026-07-26</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+</urlset>
