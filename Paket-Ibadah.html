@@ -37,64 +37,42 @@
   <meta name="twitter:description" content="Set perlengkapan ibadah yang elegan: Sajadah Travel, Al-Qur'an Mini, dan Tasbih Digital.">
   <meta name="twitter:image" content="https://vendorhampers.web.id/assets/img/produk/paket-ibadah.webp">
 
-  <!-- ============================================================
-       GEO LOCATION - JAKARTA
-       ============================================================ -->
-  <meta name="geo.region" content="ID-JK">
-  <meta name="geo.placename" content="Jakarta">
-  <meta name="geo.position" content="-6.2088;106.8456">
-  <meta name="ICBM" content="-6.2088, 106.8456">
-  <meta name="language" content="Indonesian">
+    <!-- GEO Location - Malang -->
+  <meta name="geo.region" content="ID-JI">
+  <meta name="geo.placename" content="Malang">
+  <meta name="geo.position" content="-7.9831;112.6062">
+  <meta name="ICBM" content="-7.9831, 112.6062">
 
-  <!-- ============================================================
-       LOCAL BUSINESS SCHEMA (JSON-LD)
-       ============================================================ -->
+  <!-- Local Business Schema -->
   <script type="application/ld+json">
   {
-    "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "name": "GHampers",
-    "image": "https://vendorhampers.web.id/assets/img/logo.webp",
-    "description": "Studio hampers dan corporate gift premium di Jakarta. Menyediakan hampers Lebaran, hampers Natal, hampers Tahun Baru, dan corporate gift eksklusif.",
-    "address": {
-      "@type": "PostalAddress",
-      "addressCountry": "Indonesia",
-      "addressLocality": "Jakarta",
-      "addressRegion": "DKI Jakarta"
-    },
-    "geo": {
-      "@type": "GeoCoordinates",
-      "latitude": "-6.2088",
-      "longitude": "106.8456"
-    },
-    "url": "https://vendorhampers.web.id",
-    "telephone": "+6288989643555",
-    "priceRange": "Rp 75.000 - Rp 500.000+",
-    "openingHours": "Mo-Sa 09:00-18:00",
-    "openingHoursSpecification": [
-      {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-        "opens": "09:00",
-        "closes": "18:00"
-      }
-    ],
-    "sameAs": [
-      "https://www.instagram.com/ghampers",
-      "https://www.facebook.com/ghampers",
-      "https://wa.me/6288989643555"
-    ],
-    "contactPoint": {
-      "@type": "ContactPoint",
-      "telephone": "+6288989643555",
-      "contactType": "sales",
-      "availableLanguage": ["Indonesian"]
-    }
-  }
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "GHampers",
+  "image": "https://vendorhampers.web.id/assets/img/logo.webp",
+  "description": "Studio hampers dan corporate gift premium di Malang.",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Bandulan, Kecamatan Sukun",
+    "addressLocality": "Malang",
+    "addressRegion": "Jawa Timur",
+    "postalCode": "65146",
+    "addressCountry": "ID"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": "-7.9831",
+    "longitude": "112.6062"
+  },
+  "url": "https://vendorhampers.web.id",
+  "telephone": "+6288989643555",
+  "priceRange": "Rp 75.000 - Rp 500.000+",
+  "openingHours": "Mo-Sa 09:00-18:00"
+}
   </script>
 
   <!-- ============================================================
-       PRODUCT SCHEMA (JSON-LD)
+       PRODUCT SCHEMA (JSON-LD) - SUDAH DIPERBAIKI & DIRAPIKAN
        ============================================================ -->
   <script type="application/ld+json">
   {
@@ -112,33 +90,17 @@
       "@type": "Organization",
       "name": "GHampers"
     },
-    "offers": {
-      "@type": "Offer",
-      "priceCurrency": "IDR",
-      "price": "225000",
-      "availability": "https://schema.org/InStock",
-      "validFrom": "2026-01-01",
-      "url": "https://vendorhampers.web.id/Paket-Ibadah.html",
-      "priceValidUntil": "2026-12-31",
-      "seller": {
-        "@type": "Organization",
-        "name": "GHampers"
-      }
-    },
     "aggregateRating": {
       "@type": "AggregateRating",
       "ratingValue": "4.8",
-      "reviewCount": "85",
-      "bestRating": "5",
-      "worstRating": "1"
+      "reviewCount": "85"
     },
     "review": [
       {
         "@type": "Review",
         "reviewRating": {
           "@type": "Rating",
-          "ratingValue": "5",
-          "bestRating": "5"
+          "ratingValue": "5"
         },
         "author": {
           "@type": "Person",
@@ -146,7 +108,56 @@
         },
         "reviewBody": "Paket ibadah ini sangat lengkap dan berkualitas. Sajadahnya empuk, Al-Qur'an mini mudah dibawa, dan tasbih digitalnya praktis. Cocok untuk hadiah lebaran!"
       }
-    ]
+    ],
+    "offers": {
+      "@type": "Offer",
+      "url": "https://vendorhampers.web.id/Paket-Ibadah.html",
+      "priceCurrency": "IDR",
+      "price": "225000",
+      "validFrom": "2026-01-01",
+      "priceValidUntil": "2026-12-31",
+      "availability": "https://schema.org/InStock",
+      "itemCondition": "https://schema.org/NewCondition",
+      "seller": {
+        "@type": "Organization",
+        "name": "GHampers"
+      },
+      "shippingDetails": {
+        "@type": "OfferShippingDetails",
+        "shippingRate": {
+          "@type": "MonetaryAmount",
+          "value": "15000",
+          "currency": "IDR"
+        },
+        "shippingDestination": {
+          "@type": "DefinedRegion",
+          "addressCountry": "ID"
+        },
+        "deliveryTime": {
+          "@type": "ShippingDeliveryTime",
+          "handlingTime": {
+            "@type": "QuantitativeValue",
+            "minValue": 0,
+            "maxValue": 1,
+            "unitCode": "DAY"
+          },
+          "transitTime": {
+            "@type": "QuantitativeValue",
+            "minValue": 1,
+            "maxValue": 3,
+            "unitCode": "DAY"
+          }
+        }
+      },
+      "hasMerchantReturnPolicy": {
+        "@type": "MerchantReturnPolicy",
+        "applicableCountry": "ID",
+        "returnPolicyCategory": "https://schema.org/MerchantReturnFiniteReturnWindow",
+        "merchantReturnDays": 7,
+        "returnMethod": "https://schema.org/ReturnByMail",
+        "returnFees": "https://schema.org/FreeReturn"
+      }
+    }
   }
   </script>
 
