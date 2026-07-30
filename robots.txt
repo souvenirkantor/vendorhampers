@@ -1,20 +1,21 @@
 # ========================================================
 # ROBOTS.TXT - GHampers
 # ========================================================
-# Website: https://ghampers.vercel.app
+# Website: https://vendorhampers.web.id
 # Last Updated: 2026-07-26
 # ========================================================
 
 # ========================================================
 # SITEMAP
 # ========================================================
-Sitemap: https://ghampers.vercel.app/sitemap.xml
+Sitemap: https://vendorhampers.web.id/sitemap.xml
 
 # ========================================================
 # USER-AGENT: ALL CRAWLERS
 # ========================================================
 User-agent: *
 Allow: /
+Allow: /sitemap.xml
 
 # Disallow: Folder & File yang tidak perlu diindex
 Disallow: /assets/
@@ -227,4 +228,4 @@ Clean-Param: utm_source&utm_medium&utm_campaign&utm_term&utm_content
 # ========================================================
 # HOST (Domain utama)
 # ========================================================
-Host: https://ghampers.vercel.app
+Host: https://vendorhampers.web.id
