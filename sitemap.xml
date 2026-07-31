@@ -12,7 +12,7 @@
   <!-- Halaman Beranda -->
   <url>
     <loc>https://vendorhampers.web.id/</loc>
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-07-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
     <image:image>
@@ -23,7 +23,7 @@
 
   <url>
     <loc>https://vendorhampers.web.id/index.html</loc>
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-07-31</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -48,7 +48,7 @@
 
   <url>
     <loc>https://vendorhampers.web.id/blog.html</loc>
-    <lastmod>2026-07-26</lastmod>
+    <lastmod>2026-07-31</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
@@ -72,101 +72,123 @@
        ============================================================ -->
 
   <url>
-    <loc>https://vendorhampers.web.id/blog-detail-5-tips-memilih-hampers.html</loc>
-    <lastmod>2026-07-26</lastmod>
+    <loc>https://vendorhampers.web.id/blog-detail-20-ide-hampers-perusahaan-custom-momen-corporate.html</loc>
+    <lastmod>2026-07-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <image:image>
-      <image:loc>https://vendorhampers.web.id/assets/img/blog/5 tips.webp</image:loc>
-      <image:title>5 Tips Memilih Hampers yang Berkesan untuk Klien</image:title>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-perusahaan-custom-logo.webp</image:loc>
+      <image:title>20 Ide Hampers Perusahaan Custom untuk Berbagai Momen Corporate</image:title>
     </image:image>
   </url>
 
   <url>
-    <loc>https://vendorhampers.web.id/blog-detail-ide-corporate-gift-anti-mainstream.html</loc>
-    <lastmod>2026-07-26</lastmod>
+    <loc>https://vendorhampers.web.id/blog-detail-hampers-corporate-premium-perusahaan.html</loc>
+    <lastmod>2026-07-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <image:image>
-      <image:loc>https://vendorhampers.web.id/assets/img/blog/corporate.webp</image:loc>
-      <image:title>Ide Corporate Gift Anti Mainstream untuk Akhir Tahun</image:title>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-corporate-premium-overview.webp</image:loc>
+      <image:title>Hampers Corporate dengan Pilihan Isi Premium untuk Berbagai Agenda Perusahaan</image:title>
     </image:image>
   </url>
 
   <url>
-    <loc>https://vendorhampers.web.id/blog-detail-panduan-memilih-souvenir-kantor.html</loc>
-    <lastmod>2026-07-26</lastmod>
+    <loc>https://vendorhampers.web.id/blog-detail-hampers-custom-untuk-perusahaan.html</loc>
+    <lastmod>2026-07-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <image:image>
-      <image:loc>https://vendorhampers.web.id/assets/img/blog/sorvenir.webp</image:loc>
-      <image:title>Panduan Memilih Souvenir Kantor Sesuai Budget</image:title>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-custom-perusahaan-01.webp</image:loc>
+      <image:title>Hampers Custom untuk Perusahaan dengan Pilihan Isi yang Fleksibel dan Elegan</image:title>
     </image:image>
   </url>
 
   <url>
-    <loc>https://vendorhampers.web.id/blog-detail-isi-seminar-kit-wajib.html</loc>
-    <lastmod>2026-07-26</lastmod>
+    <loc>https://vendorhampers.web.id/blog-detail-hampers-kantor-berkualitas-momen-perusahaan.html</loc>
+    <lastmod>2026-07-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <image:image>
-      <image:loc>https://vendorhampers.web.id/assets/img/blog/seminar-kit.webp</image:loc>
-      <image:title>Isi Seminar Kit yang Wajib Ada agar Peserta Puas</image:title>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-kantor-set-lengkap.webp</image:loc>
+      <image:title>Hampers Kantor dengan Pilihan Produk Berkualitas untuk Berbagai Momen Perusahaan</image:title>
     </image:image>
   </url>
 
   <url>
-    <loc>https://vendorhampers.web.id/blog-detail-custom-packaging-penting.html</loc>
-    <lastmod>2026-07-26</lastmod>
+    <loc>https://vendorhampers.web.id/blog-detail-hampers-kantor-office-essentials-fungsional.html</loc>
+    <lastmod>2026-07-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <image:image>
-      <image:loc>https://vendorhampers.web.id/assets/img/blog/custom.webp</image:loc>
-      <image:title>Kenapa Custom Packaging Penting untuk Brand Anda</image:title>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-office-essentials.webp</image:loc>
+      <image:title>Hampers Kantor Berkonsep Office Essentials yang Fungsional untuk Karyawan</image:title>
     </image:image>
   </url>
 
   <url>
-    <loc>https://vendorhampers.web.id/blog-detail-menghitung-budget-hampers.html</loc>
-    <lastmod>2026-07-26</lastmod>
+    <loc>https://vendorhampers.web.id/blog-detail-hampers-perusahaan-healthy-lifestyle-fungsional.html</loc>
+    <lastmod>2026-07-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <image:image>
-      <image:loc>https://vendorhampers.web.id/assets/img/blog/budget.webp</image:loc>
-      <image:title>Cara Menghitung Budget Hampers untuk Acara Kantor</image:title>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-perusahaan-healthy-lifestyle.webp</image:loc>
+      <image:title>Hampers Perusahaan Bertema Healthy Lifestyle dengan Produk yang Fungsional</image:title>
     </image:image>
   </url>
 
   <url>
-    <loc>https://vendorhampers.web.id/blog-detail-inspirasi-hampers-lebaran.html</loc>
-    <lastmod>2026-07-26</lastmod>
+    <loc>https://vendorhampers.web.id/blog-detail-hampers-perusahaan-premium-gift-box-branding.html</loc>
+    <lastmod>2026-07-31</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <image:image>
-      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers lebaran.webp</image:loc>
-      <image:title>Inspirasi Hampers Lebaran yang Elegan dan Berkesan</image:title>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/premium-gift-box-hampers-perusahaan.webp</image:loc>
+      <image:title>Hampers Perusahaan dalam Premium Gift Box yang Siap Menjadi Media Branding</image:title>
     </image:image>
   </url>
 
   <url>
-    <loc>https://vendorhampers.web.id/blog-detail-tips-memilih-hampers-natal.html</loc>
-    <lastmod>2026-07-26</lastmod>
+    <loc>https://vendorhampers.web.id/blog-detail-hampers-premium-perusahaan-strategi-apresiasi.html</loc>
+    <lastmod>2026-07-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <image:image>
-      <image:loc>https://vendorhampers.web.id/assets/img/blog/kolega.webp</image:loc>
-      <image:title>Tips Memilih Hampers Natal untuk Keluarga dan Kolega</image:title>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-premium-perusahaan.webp</image:loc>
+      <image:title>Panduan Lengkap Hampers Premium dengan Isi Produk Berkualitas untuk Momen Apresiasi Perusahaan</image:title>
     </image:image>
   </url>
 
   <url>
-    <loc>https://vendorhampers.web.id/blog-detail-ide-gift-tahun-baru.html</loc>
-    <lastmod>2026-07-26</lastmod>
+    <loc>https://vendorhampers.web.id/blog-detail-hampers-premium-perusahaan.html</loc>
+    <lastmod>2026-07-30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
     <image:image>
-      <image:loc>https://vendorhampers.web.id/assets/img/blog/ide gift.webp</image:loc>
-      <image:title>Ide Gift Tahun Baru yang Unik dan Bermakna</image:title>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/hampers-premium-perusahaan-navy-gold.webp</image:loc>
+      <image:title>Hampers Premium Perusahaan untuk Menciptakan Kesan Eksklusif di Setiap Momen Corporate</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://vendorhampers.web.id/blog-detail-paket-hampers-perusahaan-eksklusif-karyawan-yogyakarta.html</loc>
+    <lastmod>2026-07-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/paket-hampers-eksklusif-karyawan-yogyakarta.webp</image:loc>
+      <image:title>Paket Hampers Perusahaan Eksklusif untuk Karyawan Melayani Yogyakarta dan Sekitarnya</image:title>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://vendorhampers.web.id/blog-detail-premium-office-hampers-karyawan-mitra-bisnis.html</loc>
+    <lastmod>2026-07-31</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <image:image>
+      <image:loc>https://vendorhampers.web.id/assets/img/blog/office-essentials-premium-hampers-karyawan.webp</image:loc>
+      <image:title>Premium Office Hampers Berisi Produk Pilihan untuk Karyawan dan Mitra Bisnis</image:title>
     </image:image>
   </url>
 
