@@ -476,6 +476,59 @@
     }
     .baca-juga-inline .title { font-size: 16px; color: var(--charcoal); font-weight: 600; font-family: var(--font-body); }
 
+    /* ---------- Table of Contents ---------- */
+    .article-toc {
+      background: var(--champagne); border-radius: 16px; padding: 26px 30px;
+      margin: 10px 0 35px; border: 1px solid rgba(201,168,76,0.25);
+    }
+    .article-toc .toc-title {
+      font-family: var(--font-heading); font-size: 19px; font-weight: 700;
+      color: var(--charcoal); margin-bottom: 14px; display: flex; align-items: center; gap: 8px;
+    }
+    .article-toc .toc-title i { color: var(--gold-dark); }
+    .article-toc ol { margin: 0; padding-left: 22px; }
+    .article-toc ol li { margin-bottom: 8px; font-size: 15.5px; }
+    .article-toc ol li a { color: var(--default-color); text-decoration: none; border-bottom: 1px dashed transparent; transition: all 0.25s ease; }
+    .article-toc ol li a:hover { color: var(--gold-dark); border-bottom-color: var(--gold); }
+
+    /* ---------- Pillar CTA (outline style, secondary) ---------- */
+    .article-pillar-cta {
+      border: 2px solid var(--gold); border-radius: 20px; padding: 32px 36px;
+      margin: 40px 0; text-align: center; background: var(--warm-white);
+    }
+    .article-pillar-cta .cta-icon { font-size: 30px; color: var(--gold-dark); margin-bottom: 12px; display: block; }
+    .article-pillar-cta h4 { color: var(--charcoal); font-size: 22px; font-weight: 700; margin-bottom: 8px; }
+    .article-pillar-cta p { color: var(--default-color); font-size: 15.5px; margin-bottom: 20px; }
+    .article-pillar-cta .btn-cta-outline {
+      display: inline-flex; align-items: center; gap: 10px;
+      background: transparent; color: var(--gold-dark); padding: 13px 32px;
+      border: 2px solid var(--gold); border-radius: 50px; font-weight: 600; font-size: 15px;
+      text-decoration: none; transition: all 0.35s ease;
+    }
+    .article-pillar-cta .btn-cta-outline:hover { background: var(--gold-gradient); color: #fff; border-color: transparent; }
+
+    /* ---------- Cluster List Box (untuk halaman pillar) ---------- */
+    .cluster-list-box {
+      background: var(--cream); border-radius: 20px; padding: 32px 36px; margin: 40px 0;
+    }
+    .cluster-list-box .clb-title {
+      font-family: var(--font-heading); font-size: 22px; font-weight: 700;
+      color: var(--charcoal); margin-bottom: 6px; display: flex; align-items: center; gap: 10px;
+    }
+    .cluster-list-box .clb-title i { color: var(--gold-dark); }
+    .cluster-list-box .clb-sub { font-size: 14.5px; color: var(--default-color); margin-bottom: 20px; }
+    .cluster-list-box ul { list-style: none; margin: 0; padding: 0; }
+    .cluster-list-box ul li { margin-bottom: 0; }
+    .cluster-list-box ul li a {
+      display: flex; align-items: center; gap: 10px; padding: 12px 0;
+      border-bottom: 1px solid rgba(201,168,76,0.2); text-decoration: none;
+      color: var(--charcoal); font-weight: 500; font-size: 16px; transition: all 0.25s ease;
+    }
+    .cluster-list-box ul li:last-child a { border-bottom: none; }
+    .cluster-list-box ul li a:hover { color: var(--gold-dark); padding-left: 6px; }
+    .cluster-list-box ul li a i.bi-arrow-right-short { margin-left: auto; font-size: 20px; }
+
+
     /* ---------- Share Buttons ---------- */
     .article-share {
       display: flex; align-items: center; flex-wrap: wrap; gap: 14px;
@@ -690,7 +743,7 @@
           </ol>
         </nav>
 
-        <span class="article-category-badge"><i class="bi bi-tag-fill me-1"></i> Hampers Custom</span>
+        <span class="article-category-badge"><i class="bi bi-tag-fill me-1"></i> Panduan Lengkap &bull; Hampers Custom</span>
 
         <h1>Hampers Custom untuk Perusahaan dengan Pilihan Isi yang Fleksibel dan Elegan</h1>
 
@@ -726,11 +779,33 @@
                 <li>Proses pemesanan umumnya melibatkan konsultasi, penentuan isi, dan produksi bertahap.</li>
                 <li>Fleksibilitas isi membuat hampers custom lebih relevan dibanding paket hampers standar.</li>
               </ul>
-              <h2>Apa Itu Hampers Custom untuk Kebutuhan Perusahaan</h2>
+              <div class="cluster-list-box" data-aos="fade-up">
+                <div class="clb-title"><i class="bi bi-diagram-3-fill"></i> Isi Panduan Lengkap Ini</div>
+                <div class="clb-sub">Artikel-artikel berikut membahas topik ini lebih mendalam dari berbagai sudut:</div>
+                <ul>
+        <li><a href="blog-detail-hampers-custom-produk-lifestyle.html"><i class="bi bi-file-earmark-text"></i> Hampers Custom Berisi Produk Lifestyle yang Siap Menampilkan Identitas Brand Perusahaan <i class="bi bi-arrow-right-short"></i></a></li>
+        <li><a href="blog-detail-hampers-custom-premium-gift-box-yogyakarta.html"><i class="bi bi-file-earmark-text"></i> Hampers Custom dalam Premium Gift Box Melayani Yogyakarta, Sleman, dan Seluruh Indonesia <i class="bi bi-arrow-right-short"></i></a></li>
+        <li><a href="blog-detail-inspirasi-hampers-custom-tumbler-mug-notebook-snack.html"><i class="bi bi-file-earmark-text"></i> Inspirasi Hampers Custom dengan Kombinasi Tumbler, Mug, Notebook, dan Snack Premium <i class="bi bi-arrow-right-short"></i></a></li>
+                </ul>
+              </div>
+              <div class="article-toc" data-aos="fade-up">
+                <div class="toc-title"><i class="bi bi-list-ul"></i> Daftar Isi</div>
+                <ol>
+          <li><a href="#apa-itu-hampers-custom-untuk-kebutuhan-perusahaan">Apa Itu Hampers Custom untuk Kebutuhan Perusahaan</a></li>
+          <li><a href="#siapa-yang-membutuhkan-hampers-custom">Siapa yang Membutuhkan Hampers Custom</a></li>
+          <li><a href="#kapan-waktu-yang-tepat-menggunakan-hampers-custom">Kapan Waktu yang Tepat Menggunakan Hampers Custom</a></li>
+          <li><a href="#apa-saja-komponen-isi-hampers-custom-yang-bisa-dipilih">Apa Saja Komponen Isi Hampers Custom yang Bisa Dipilih</a></li>
+          <li><a href="#bagaimana-cara-menentukan-budget-hampers-custom-yang-sesuai">Bagaimana Cara Menentukan Budget Hampers Custom yang Sesuai</a></li>
+          <li><a href="#bagaimana-proses-pemesanan-hampers-custom-yang-efisien">Bagaimana Proses Pemesanan Hampers Custom yang Efisien</a></li>
+          <li><a href="#apa-kesalahan-umum-yang-perlu-dihindari-saat-memesan-hampers-custom">Apa Kesalahan Umum yang Perlu Dihindari Saat Memesan Hampers Custom</a></li>
+          <li><a href="#kesimpulan">Kesimpulan</a></li>
+                </ol>
+              </div>
+              <h2 id="apa-itu-hampers-custom-untuk-kebutuhan-perusahaan">Apa Itu Hampers Custom untuk Kebutuhan Perusahaan</h2>
               <p>Hampers custom untuk perusahaan adalah hadiah dalam bentuk paket berisi beberapa produk pilihan yang disusun secara khusus atas permintaan pemesan, biasanya untuk kebutuhan korporat.</p>
               <p>Berbeda dengan hampers siap jual yang isinya sudah ditentukan, hampers custom memberi ruang bagi perusahaan untuk menentukan sendiri kombinasi produk di dalamnya. Perusahaan dapat menyesuaikan isi hampers dengan tema acara, karakter penerima, dan nilai anggaran yang tersedia.</p>
               <p>Konsep custom pada hampers juga mencakup pemilihan kemasan. Warna box, pita, kartu ucapan, hingga elemen visual lain dapat disesuaikan agar selaras dengan identitas brand. Dengan begitu, hampers tidak hanya berfungsi sebagai hadiah, tetapi juga sebagai media yang memperkuat kesan profesional perusahaan di mata penerima, baik itu karyawan, klien, maupun mitra bisnis.</p>
-              <h2>Siapa yang Membutuhkan Hampers Custom</h2>
+              <h2 id="siapa-yang-membutuhkan-hampers-custom">Siapa yang Membutuhkan Hampers Custom</h2>
               <p>Hampers custom umumnya dibutuhkan oleh perusahaan, instansi, maupun pelaku bisnis yang ingin memberikan apresiasi dalam bentuk hadiah yang terencana dan sesuai konteks acara.</p>
               <ul>
                 <li>Divisi HRD yang menyiapkan hadiah untuk karyawan pada momen tertentu.</li>
@@ -739,7 +814,7 @@
                 <li>Event organizer yang mengelola acara korporat dan membutuhkan souvenir bernilai.</li>
                 <li>Pelaku bisnis skala kecil hingga menengah yang ingin membangun hubungan baik dengan mitra.</li>
               </ul>
-              <h2>Kapan Waktu yang Tepat Menggunakan Hampers Custom</h2>
+              <h2 id="kapan-waktu-yang-tepat-menggunakan-hampers-custom">Kapan Waktu yang Tepat Menggunakan Hampers Custom</h2>
               <p>Hampers custom dapat digunakan pada berbagai momen korporat, mulai dari perayaan hari besar, penghargaan internal, hingga aktivitas menjaga hubungan bisnis jangka panjang.</p>
               <ul>
                 <li>Hari raya keagamaan seperti Lebaran atau Natal.</li>
@@ -748,7 +823,15 @@
                 <li>Kunjungan atau kerja sama dengan klien dan mitra bisnis.</li>
                 <li>Acara seminar, gathering, atau pelatihan internal perusahaan.</li>
               </ul>
-              <h2>Apa Saja Komponen Isi Hampers Custom yang Bisa Dipilih</h2>
+              <div class="article-cta-box" data-aos="zoom-in">
+                <i class="bi bi-gift-fill cta-icon"></i>
+                <h4>Butuh Rekomendasi Hampers Sesuai Kebutuhan Anda?</h4>
+                <p>Tim GHampers siap bantu memilihkan hampers yang paling sesuai dengan budget dan kebutuhan perusahaan Anda.</p>
+                <a href="https://wa.me/6288989643555?text=Halo%20GHampers%2C%20saya%20ingin%20konsultasi%20soal%20Hampers%20Custom%20untuk%20Perusahaan%20dengan%20Pilihan%20Isi%20yang%20Fleksibel%20dan%20Elegan" target="_blank" rel="noopener" class="btn-cta">
+                  <i class="bi bi-whatsapp"></i> Konsultasi Gratis via WhatsApp
+                </a>
+              </div>
+              <h2 id="apa-saja-komponen-isi-hampers-custom-yang-bisa-dipilih">Apa Saja Komponen Isi Hampers Custom yang Bisa Dipilih</h2>
               <p>Isi hampers custom dapat berupa kombinasi produk lifestyle, makanan atau minuman premium, hingga barang fungsional yang disesuaikan dengan preferensi dan anggaran perusahaan.</p>
               <ul>
                 <li>Produk lifestyle seperti tumbler, mug, tote bag, dan notebook.</li>
@@ -757,7 +840,7 @@
                 <li>Minuman seperti kopi, teh, atau cokelat kemasan.</li>
                 <li>Aksesori kerja seperti pulpen, organizer, atau tumbler custom logo.</li>
               </ul>
-              <h2>Bagaimana Cara Menentukan Budget Hampers Custom yang Sesuai</h2>
+              <h2 id="bagaimana-cara-menentukan-budget-hampers-custom-yang-sesuai">Bagaimana Cara Menentukan Budget Hampers Custom yang Sesuai</h2>
               <p>Budget hampers custom umumnya ditentukan berdasarkan jumlah penerima, jenis produk yang dipilih, serta tingkat kerumitan kustomisasi kemasan dan logo.</p>
               <ul>
                 <li>Jumlah dan jenis produk di dalam hampers.</li>
@@ -766,7 +849,7 @@
                 <li>Jumlah unit yang dipesan, karena biasanya berkaitan dengan skema harga bertingkat.</li>
                 <li>Waktu pengerjaan, di mana pemesanan mendadak berpotensi memengaruhi biaya produksi.</li>
               </ul>
-              <h2>Bagaimana Proses Pemesanan Hampers Custom yang Efisien</h2>
+              <h2 id="bagaimana-proses-pemesanan-hampers-custom-yang-efisien">Bagaimana Proses Pemesanan Hampers Custom yang Efisien</h2>
               <p>Proses pemesanan hampers custom umumnya dimulai dari konsultasi kebutuhan, penentuan isi dan kemasan, proses produksi, hingga pengiriman ke lokasi tujuan.</p>
               <ul>
                 <li>Konsultasi awal mengenai tujuan pemberian, jumlah penerima, dan anggaran.</li>
@@ -775,7 +858,7 @@
                 <li>Proses produksi dan pengemasan oleh penyedia hampers.</li>
                 <li>Pengecekan kualitas sebelum pengiriman ke alamat tujuan.</li>
               </ul>
-              <h2>Apa Kesalahan Umum yang Perlu Dihindari Saat Memesan Hampers Custom</h2>
+              <h2 id="apa-kesalahan-umum-yang-perlu-dihindari-saat-memesan-hampers-custom">Apa Kesalahan Umum yang Perlu Dihindari Saat Memesan Hampers Custom</h2>
               <p>Kesalahan umum dalam pemesanan hampers custom biasanya terjadi karena kurangnya perencanaan waktu, ketidakjelasan budget, dan minimnya komunikasi mengenai preferensi isi.</p>
               <ul>
                 <li>Memesan terlalu mendekati tanggal acara sehingga waktu produksi terbatas.</li>
@@ -784,7 +867,7 @@
                 <li>Mengabaikan konsistensi antara desain kemasan dengan identitas brand perusahaan.</li>
                 <li>Tidak melakukan pengecekan sampel sebelum produksi dalam jumlah besar.</li>
               </ul>
-              <h2>Kesimpulan</h2>
+              <h2 id="kesimpulan">Kesimpulan</h2>
               <p>Hampers custom untuk perusahaan memberikan keleluasaan dalam menentukan isi, kemasan, dan anggaran sesuai kebutuhan setiap momen korporat. Agar hasil sesuai harapan, perusahaan sebaiknya menentukan budget sejak awal, memahami karakter penerima, dan melakukan pemesanan lebih awal terutama pada momen dengan permintaan tinggi. Pendekatan yang terencana akan membuat hampers custom lebih maksimal sebagai media apresiasi sekaligus representasi identitas perusahaan.</p>
             </div>
 
@@ -822,34 +905,34 @@
 
         <div class="row g-4">
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <a href="blog-detail-paket-hampers-perusahaan-eksklusif-karyawan-yogyakarta.html" class="related-post-card">
-              <div class="thumb"><img src="assets/img/blog/paket-hampers-eksklusif-karyawan-yogyakarta.webp" alt="Paket Hampers Perusahaan Eksklusif untuk Karyawan Melayani Yogyakarta dan Sekitarnya"></div>
+            <a href="blog-detail-hampers-custom-produk-lifestyle.html" class="related-post-card">
+              <div class="thumb"><img src="assets/img/blog/hampers-custom-lifestyle-01.webp" alt="Hampers Custom Berisi Produk Lifestyle yang Siap Menampilkan Identitas Brand Perusahaan"></div>
               <div class="card-body">
-                <span class="cat">Hampers Perusahaan</span>
-                <h4>Paket Hampers Perusahaan Eksklusif untuk Karyawan Melayani Yogyakarta dan Sekitarnya</h4>
-                <div class="meta-small">31 Jul 2026 &bull; Asher Angelica</div>
+                <span class="cat">Hampers Custom</span>
+                <h4>Hampers Custom Berisi Produk Lifestyle yang Siap Menampilkan Identitas Brand Perusahaan</h4>
+                <div class="meta-small">31 Jul 2026 &bull; Nazhima Nadine</div>
               </div>
             </a>
           </div>
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <a href="blog-detail-hampers-perusahaan-healthy-lifestyle-fungsional.html" class="related-post-card">
-              <div class="thumb"><img src="assets/img/blog/hampers-perusahaan-healthy-lifestyle.webp" alt="Hampers Perusahaan Bertema Healthy Lifestyle dengan Produk yang Fungsional"></div>
+            <a href="blog-detail-hampers-custom-premium-gift-box-yogyakarta.html" class="related-post-card">
+              <div class="thumb"><img src="assets/img/blog/hampers-custom-premium-yogyakarta-01.webp" alt="Hampers Custom dalam Premium Gift Box Melayani Yogyakarta, Sleman, dan Seluruh Indonesia"></div>
               <div class="card-body">
-                <span class="cat">Hampers Perusahaan</span>
-                <h4>Hampers Perusahaan Bertema Healthy Lifestyle dengan Produk yang Fungsional</h4>
-                <div class="meta-small">30 Jul 2026 &bull; Anggun Tri Stya Ningrum</div>
+                <span class="cat">Hampers Custom</span>
+                <h4>Hampers Custom dalam Premium Gift Box Melayani Yogyakarta, Sleman, dan Seluruh Indonesia</h4>
+                <div class="meta-small">1 Ags 2026 &bull; Nazhima Nadine</div>
               </div>
             </a>
           </div>
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <a href="blog-detail-hampers-perusahaan-premium-gift-box-branding.html" class="related-post-card">
-              <div class="thumb"><img src="assets/img/blog/premium-gift-box-hampers-perusahaan.webp" alt="Hampers Perusahaan dalam Premium Gift Box yang Siap Menjadi Media Branding"></div>
+            <a href="blog-detail-inspirasi-hampers-custom-tumbler-mug-notebook-snack.html" class="related-post-card">
+              <div class="thumb"><img src="assets/img/blog/inspirasi-hampers-custom-tumbler-mug-notebook-snack.webp" alt="Inspirasi Hampers Custom dengan Kombinasi Tumbler, Mug, Notebook, dan Snack Premium"></div>
               <div class="card-body">
-                <span class="cat">Hampers Perusahaan</span>
-                <h4>Hampers Perusahaan dalam Premium Gift Box yang Siap Menjadi Media Branding</h4>
-                <div class="meta-small">31 Jul 2026 &bull; Anggun Tri Stya Ningrum</div>
+                <span class="cat">Hampers Custom</span>
+                <h4>Inspirasi Hampers Custom dengan Kombinasi Tumbler, Mug, Notebook, dan Snack Premium</h4>
+                <div class="meta-small">3 Ags 2026 &bull; Nazhima Nadine</div>
               </div>
             </a>
           </div>
@@ -889,11 +972,11 @@
         <div class="col-lg-2 col-md-3 footer-links">
           <h4>Kategori Produk</h4>
           <ul>
-            <li><a href="Parcel-Hari-Raya-Korporat.html">Hampers Lebaran</a></li>
-            <li><a href="Artisan-Chocolate-Box-&-Scented-Candle.html">Hampers Natal</a></li>
-            <li><a href="Desk-Calendar-Premium-2027-&-Planner-Book.html">Hampers Tahun Baru</a></li>
-            <li><a href="Tumbler-Custom-Logo.html">Souvenir &amp; Merchandise</a></li>
-            <li><a href="Hampers-Eksekutif.html">Corporate Gift</a></li>
+            <li><a href="produk.html#lebaran">Hampers Lebaran</a></li>
+            <li><a href="produk.html#natal">Hampers Natal</a></li>
+            <li><a href="produk.html#tahunbaru">Hampers Tahun Baru</a></li>
+            <li><a href="produk.html#souvenir">Souvenir &amp; Merchandise</a></li>
+            <li><a href="produk.html#corporate">Corporate Gift</a></li>
           </ul>
         </div>
 

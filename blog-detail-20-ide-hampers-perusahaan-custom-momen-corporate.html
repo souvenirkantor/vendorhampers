@@ -476,6 +476,59 @@
     }
     .baca-juga-inline .title { font-size: 16px; color: var(--charcoal); font-weight: 600; font-family: var(--font-body); }
 
+    /* ---------- Table of Contents ---------- */
+    .article-toc {
+      background: var(--champagne); border-radius: 16px; padding: 26px 30px;
+      margin: 10px 0 35px; border: 1px solid rgba(201,168,76,0.25);
+    }
+    .article-toc .toc-title {
+      font-family: var(--font-heading); font-size: 19px; font-weight: 700;
+      color: var(--charcoal); margin-bottom: 14px; display: flex; align-items: center; gap: 8px;
+    }
+    .article-toc .toc-title i { color: var(--gold-dark); }
+    .article-toc ol { margin: 0; padding-left: 22px; }
+    .article-toc ol li { margin-bottom: 8px; font-size: 15.5px; }
+    .article-toc ol li a { color: var(--default-color); text-decoration: none; border-bottom: 1px dashed transparent; transition: all 0.25s ease; }
+    .article-toc ol li a:hover { color: var(--gold-dark); border-bottom-color: var(--gold); }
+
+    /* ---------- Pillar CTA (outline style, secondary) ---------- */
+    .article-pillar-cta {
+      border: 2px solid var(--gold); border-radius: 20px; padding: 32px 36px;
+      margin: 40px 0; text-align: center; background: var(--warm-white);
+    }
+    .article-pillar-cta .cta-icon { font-size: 30px; color: var(--gold-dark); margin-bottom: 12px; display: block; }
+    .article-pillar-cta h4 { color: var(--charcoal); font-size: 22px; font-weight: 700; margin-bottom: 8px; }
+    .article-pillar-cta p { color: var(--default-color); font-size: 15.5px; margin-bottom: 20px; }
+    .article-pillar-cta .btn-cta-outline {
+      display: inline-flex; align-items: center; gap: 10px;
+      background: transparent; color: var(--gold-dark); padding: 13px 32px;
+      border: 2px solid var(--gold); border-radius: 50px; font-weight: 600; font-size: 15px;
+      text-decoration: none; transition: all 0.35s ease;
+    }
+    .article-pillar-cta .btn-cta-outline:hover { background: var(--gold-gradient); color: #fff; border-color: transparent; }
+
+    /* ---------- Cluster List Box (untuk halaman pillar) ---------- */
+    .cluster-list-box {
+      background: var(--cream); border-radius: 20px; padding: 32px 36px; margin: 40px 0;
+    }
+    .cluster-list-box .clb-title {
+      font-family: var(--font-heading); font-size: 22px; font-weight: 700;
+      color: var(--charcoal); margin-bottom: 6px; display: flex; align-items: center; gap: 10px;
+    }
+    .cluster-list-box .clb-title i { color: var(--gold-dark); }
+    .cluster-list-box .clb-sub { font-size: 14.5px; color: var(--default-color); margin-bottom: 20px; }
+    .cluster-list-box ul { list-style: none; margin: 0; padding: 0; }
+    .cluster-list-box ul li { margin-bottom: 0; }
+    .cluster-list-box ul li a {
+      display: flex; align-items: center; gap: 10px; padding: 12px 0;
+      border-bottom: 1px solid rgba(201,168,76,0.2); text-decoration: none;
+      color: var(--charcoal); font-weight: 500; font-size: 16px; transition: all 0.25s ease;
+    }
+    .cluster-list-box ul li:last-child a { border-bottom: none; }
+    .cluster-list-box ul li a:hover { color: var(--gold-dark); padding-left: 6px; }
+    .cluster-list-box ul li a i.bi-arrow-right-short { margin-left: auto; font-size: 20px; }
+
+
     /* ---------- Share Buttons ---------- */
     .article-share {
       display: flex; align-items: center; flex-wrap: wrap; gap: 14px;
@@ -690,7 +743,7 @@
           </ol>
         </nav>
 
-        <span class="article-category-badge"><i class="bi bi-tag-fill me-1"></i> Corporate Gift</span>
+        <span class="article-category-badge"><i class="bi bi-tag-fill me-1"></i> Panduan Lengkap &bull; Corporate Gift</span>
 
         <h1>20 Ide Hampers Perusahaan Custom untuk Berbagai Momen Corporate</h1>
 
@@ -727,7 +780,26 @@
                 <li>Konsultasi kemasan dan desain gratis sebelum order dalam jumlah besar.</li>
               </ul>
               <p>Hampers Perusahaan kini menjadi bagian penting dari strategi corporate gifting, baik untuk klien, mitra bisnis, maupun karyawan internal. Pemilihan isi dan kemasan yang tepat akan memperkuat citra profesional perusahaan sekaligus meninggalkan kesan baik bagi penerima. Berikut rangkuman ide produk yang paling banyak dipesan untuk kebutuhan hampers korporat.</p>
-              <h2>Rekomendasi Hampers Minuman Premium untuk Apresiasi Klien</h2>
+              <div class="cluster-list-box" data-aos="fade-up">
+                <div class="clb-title"><i class="bi bi-diagram-3-fill"></i> Isi Panduan Lengkap Ini</div>
+                <div class="clb-sub">Artikel-artikel berikut membahas topik ini lebih mendalam dari berbagai sudut:</div>
+                <ul>
+        <li><a href="blog-detail-paket-hampers-perusahaan-eksklusif-karyawan-yogyakarta.html"><i class="bi bi-file-earmark-text"></i> Paket Hampers Perusahaan Eksklusif untuk Karyawan Melayani Yogyakarta dan Sekitarnya <i class="bi bi-arrow-right-short"></i></a></li>
+        <li><a href="blog-detail-inspirasi-hampers-premium-mug-tumbler-snack-elegan.html"><i class="bi bi-file-earmark-text"></i> Inspirasi Hampers Premium Berisi Mug, Tumbler, dan Snack dalam Kemasan Elegan <i class="bi bi-arrow-right-short"></i></a></li>
+        <li><a href="blog-detail-16-hampers-corporate-siap-kirim-seluruh-indonesia.html"><i class="bi bi-file-earmark-text"></i> 16 Hampers Corporate Siap Kirim ke Seluruh Indonesia dengan Kemasan Premium <i class="bi bi-arrow-right-short"></i></a></li>
+                </ul>
+              </div>
+              <div class="article-toc" data-aos="fade-up">
+                <div class="toc-title"><i class="bi bi-list-ul"></i> Daftar Isi</div>
+                <ol>
+          <li><a href="#rekomendasi-hampers-minuman-premium-untuk-apresiasi-klien">Rekomendasi Hampers Minuman Premium untuk Apresiasi Klien</a></li>
+          <li><a href="#mengapa-hampers-berisi-mug-dan-snack-menjadi-favorit-karyawan">Mengapa Hampers Berisi Mug dan Snack Menjadi Favorit Karyawan</a></li>
+          <li><a href="#solusi-hampers-kerja-dan-alat-tulis-untuk-karyawan-baru">Solusi Hampers Kerja dan Alat Tulis untuk Karyawan Baru</a></li>
+          <li><a href="#rekomendasi-kemasan-eksklusif-untuk-hampers-perusahaan">Rekomendasi Kemasan Eksklusif untuk Hampers Perusahaan</a></li>
+          <li><a href="#kesimpulan">Kesimpulan</a></li>
+                </ol>
+              </div>
+              <h2 id="rekomendasi-hampers-minuman-premium-untuk-apresiasi-klien">Rekomendasi Hampers Minuman Premium untuk Apresiasi Klien</h2>
               <p>Hampers berisi kopi premium, teh custom, dan tumbler branding tersedia sebagai paket minuman eksklusif yang cocok untuk apresiasi klien maupun rekan bisnis.</p>
               <p>Kategori minuman selalu menjadi pilihan aman karena cocok untuk hampir semua kalangan penerima. Berikut variasi yang tersedia:</p>
               <ul>
@@ -738,7 +810,7 @@
                 <li><strong>Sirup atau madu kemasan custom</strong> sebagai pelengkap.</li>
               </ul>
               <p>Kelima item ini dapat dikombinasikan dalam satu box hampers dengan susunan yang rapi dan proporsional.</p>
-              <h2>Mengapa Hampers Berisi Mug dan Snack Menjadi Favorit Karyawan</h2>
+              <h2 id="mengapa-hampers-berisi-mug-dan-snack-menjadi-favorit-karyawan">Mengapa Hampers Berisi Mug dan Snack Menjadi Favorit Karyawan</h2>
               <p>Hampers berisi mug custom dan aneka snack kemasan tersedia dengan opsi cetak logo dua sisi, cocok dijadikan apresiasi rutin untuk karyawan maupun tim internal.</p>
               <p>Kombinasi mug dan snack merupakan pilihan populer karena kepraktisannya untuk dikonsumsi maupun digunakan sehari-hari. Berikut varian yang bisa dipilih:</p>
               <ul>
@@ -749,7 +821,7 @@
                 <li><strong>Set mug dan sachet kopi</strong> sebagai satu kesatuan paket.</li>
               </ul>
               <p>Semua varian dapat disesuaikan tema kemasannya agar selaras dengan momen pemberian hampers.</p>
-              <h2>Solusi Hampers Kerja dan Alat Tulis untuk Karyawan Baru</h2>
+              <h2 id="solusi-hampers-kerja-dan-alat-tulis-untuk-karyawan-baru">Solusi Hampers Kerja dan Alat Tulis untuk Karyawan Baru</h2>
               <p>Hampers berisi notebook custom dan alat tulis eksklusif tersedia sebagai welcome kit yang cocok diberikan kepada karyawan baru maupun peserta onboarding.</p>
               <p>Untuk momen penyambutan karyawan baru, hampers berisi kebutuhan kerja menjadi pilihan yang relevan dan fungsional. Pilihan yang tersedia meliputi:</p>
               <ul>
@@ -760,7 +832,15 @@
                 <li><strong>Lanyard dan id card holder custom</strong>.</li>
               </ul>
               <p>Pemilihan item dapat disesuaikan dengan budget serta jumlah karyawan baru yang menerima hampers.</p>
-              <h2>Rekomendasi Kemasan Eksklusif untuk Hampers Perusahaan</h2>
+              <div class="article-cta-box" data-aos="zoom-in">
+                <i class="bi bi-gift-fill cta-icon"></i>
+                <h4>Butuh Rekomendasi Hampers Sesuai Kebutuhan Anda?</h4>
+                <p>Tim GHampers siap bantu memilihkan hampers yang paling sesuai dengan budget dan kebutuhan perusahaan Anda.</p>
+                <a href="https://wa.me/6288989643555?text=Halo%20GHampers%2C%20saya%20ingin%20konsultasi%20soal%2020%20Ide%20Hampers%20Perusahaan%20Custom%20untuk%20Berbagai%20Momen%20Corporate" target="_blank" rel="noopener" class="btn-cta">
+                  <i class="bi bi-whatsapp"></i> Konsultasi Gratis via WhatsApp
+                </a>
+              </div>
+              <h2 id="rekomendasi-kemasan-eksklusif-untuk-hampers-perusahaan">Rekomendasi Kemasan Eksklusif untuk Hampers Perusahaan</h2>
               <p>Kemasan box custom dengan finishing premium tersedia sebagai wadah hampers yang memperkuat kesan eksklusif sebelum item di dalamnya dilihat penerima.</p>
               <p>Kemasan menjadi elemen penting yang menentukan kesan pertama dari sebuah hampers korporat. Berikut opsi yang tersedia:</p>
               <ul>
@@ -771,7 +851,7 @@
                 <li><strong>Paper bag custom</strong> sebagai kemasan luar tambahan.</li>
               </ul>
               <p>Kelima opsi kemasan ini biasanya disesuaikan dengan tema momen, seperti akhir tahun, hari raya, atau ulang tahun perusahaan.</p>
-              <h2>Kesimpulan</h2>
+              <h2 id="kesimpulan">Kesimpulan</h2>
               <p>Souvenir Kantor yang berbasis di Malang telah terbiasa melayani pengiriman ke berbagai kota untuk kebutuhan hampers perusahaan dalam jumlah besar, dengan sistem produksi yang mendukung request logo dan tema kemasan sesuai identitas brand. Tim kami siap membantu menyusun isi hampers, desain kemasan, dan cetak logo sesuai budget perusahaan Anda — hubungi kami untuk mendapatkan penawaran harga dan mockup gratis sebelum order dalam jumlah besar.</p>
             </div>
 
@@ -809,34 +889,34 @@
 
         <div class="row g-4">
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <a href="blog-detail-hampers-premium-perusahaan-strategi-apresiasi.html" class="related-post-card">
-              <div class="thumb"><img src="assets/img/blog/hampers-premium-perusahaan.webp" alt="Panduan Lengkap Hampers Premium dengan Isi Produk Berkualitas untuk Momen Apresiasi Perusahaan"></div>
+            <a href="blog-detail-paket-hampers-perusahaan-eksklusif-karyawan-yogyakarta.html" class="related-post-card">
+              <div class="thumb"><img src="assets/img/blog/paket-hampers-eksklusif-karyawan-yogyakarta.webp" alt="Paket Hampers Perusahaan Eksklusif untuk Karyawan Melayani Yogyakarta dan Sekitarnya"></div>
               <div class="card-body">
-                <span class="cat">Hampers Premium</span>
-                <h4>Panduan Lengkap Hampers Premium dengan Isi Produk Berkualitas untuk Momen Apresiasi Perusahaan</h4>
-                <div class="meta-small">30 Jul 2026 &bull; Hawa Nadira</div>
+                <span class="cat">Hampers Perusahaan</span>
+                <h4>Paket Hampers Perusahaan Eksklusif untuk Karyawan Melayani Yogyakarta dan Sekitarnya</h4>
+                <div class="meta-small">31 Jul 2026 &bull; Asher Angelica</div>
               </div>
             </a>
           </div>
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <a href="blog-detail-hampers-kantor-berkualitas-momen-perusahaan.html" class="related-post-card">
-              <div class="thumb"><img src="assets/img/blog/hampers-kantor-set-lengkap.webp" alt="Hampers Kantor dengan Pilihan Produk Berkualitas untuk Berbagai Momen Perusahaan"></div>
+            <a href="blog-detail-inspirasi-hampers-premium-mug-tumbler-snack-elegan.html" class="related-post-card">
+              <div class="thumb"><img src="assets/img/blog/inspirasi-hampers-premium-mug.webp" alt="Inspirasi Hampers Premium Berisi Mug, Tumbler, dan Snack dalam Kemasan Elegan"></div>
               <div class="card-body">
-                <span class="cat">Hampers Kantor</span>
-                <h4>Hampers Kantor dengan Pilihan Produk Berkualitas untuk Berbagai Momen Perusahaan</h4>
-                <div class="meta-small">30 Jul 2026 &bull; Indriana Safitri</div>
+                <span class="cat">Hampers Perusahaan</span>
+                <h4>Inspirasi Hampers Premium Berisi Mug, Tumbler, dan Snack dalam Kemasan Elegan</h4>
+                <div class="meta-small">1 Ags 2026 &bull; Asher Angelica</div>
               </div>
             </a>
           </div>
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <a href="blog-detail-hampers-kantor-office-essentials-fungsional.html" class="related-post-card">
-              <div class="thumb"><img src="assets/img/blog/hampers-office-essentials.webp" alt="Hampers Kantor Berkonsep Office Essentials yang Fungsional untuk Karyawan"></div>
+            <a href="blog-detail-16-hampers-corporate-siap-kirim-seluruh-indonesia.html" class="related-post-card">
+              <div class="thumb"><img src="assets/img/blog/hampers-corporate-siap-kirim-indonesia.webp" alt="16 Hampers Corporate Siap Kirim ke Seluruh Indonesia dengan Kemasan Premium"></div>
               <div class="card-body">
-                <span class="cat">Hampers Kantor</span>
-                <h4>Hampers Kantor Berkonsep Office Essentials yang Fungsional untuk Karyawan</h4>
-                <div class="meta-small">31 Jul 2026 &bull; Indriana Safitri</div>
+                <span class="cat">Corporate Gift</span>
+                <h4>16 Hampers Corporate Siap Kirim ke Seluruh Indonesia dengan Kemasan Premium</h4>
+                <div class="meta-small">3 Ags 2026 &bull; Asher Angelica</div>
               </div>
             </a>
           </div>
@@ -876,11 +956,11 @@
         <div class="col-lg-2 col-md-3 footer-links">
           <h4>Kategori Produk</h4>
           <ul>
-            <li><a href="Parcel-Hari-Raya-Korporat.html">Hampers Lebaran</a></li>
-            <li><a href="Artisan-Chocolate-Box-&-Scented-Candle.html">Hampers Natal</a></li>
-            <li><a href="Desk-Calendar-Premium-2027-&-Planner-Book.html">Hampers Tahun Baru</a></li>
-            <li><a href="Tumbler-Custom-Logo.html">Souvenir &amp; Merchandise</a></li>
-            <li><a href="Hampers-Eksekutif.html">Corporate Gift</a></li>
+            <li><a href="produk.html#lebaran">Hampers Lebaran</a></li>
+            <li><a href="produk.html#natal">Hampers Natal</a></li>
+            <li><a href="produk.html#tahunbaru">Hampers Tahun Baru</a></li>
+            <li><a href="produk.html#souvenir">Souvenir &amp; Merchandise</a></li>
+            <li><a href="produk.html#corporate">Corporate Gift</a></li>
           </ul>
         </div>
 

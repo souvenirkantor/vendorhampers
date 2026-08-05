@@ -476,6 +476,59 @@
     }
     .baca-juga-inline .title { font-size: 16px; color: var(--charcoal); font-weight: 600; font-family: var(--font-body); }
 
+    /* ---------- Table of Contents ---------- */
+    .article-toc {
+      background: var(--champagne); border-radius: 16px; padding: 26px 30px;
+      margin: 10px 0 35px; border: 1px solid rgba(201,168,76,0.25);
+    }
+    .article-toc .toc-title {
+      font-family: var(--font-heading); font-size: 19px; font-weight: 700;
+      color: var(--charcoal); margin-bottom: 14px; display: flex; align-items: center; gap: 8px;
+    }
+    .article-toc .toc-title i { color: var(--gold-dark); }
+    .article-toc ol { margin: 0; padding-left: 22px; }
+    .article-toc ol li { margin-bottom: 8px; font-size: 15.5px; }
+    .article-toc ol li a { color: var(--default-color); text-decoration: none; border-bottom: 1px dashed transparent; transition: all 0.25s ease; }
+    .article-toc ol li a:hover { color: var(--gold-dark); border-bottom-color: var(--gold); }
+
+    /* ---------- Pillar CTA (outline style, secondary) ---------- */
+    .article-pillar-cta {
+      border: 2px solid var(--gold); border-radius: 20px; padding: 32px 36px;
+      margin: 40px 0; text-align: center; background: var(--warm-white);
+    }
+    .article-pillar-cta .cta-icon { font-size: 30px; color: var(--gold-dark); margin-bottom: 12px; display: block; }
+    .article-pillar-cta h4 { color: var(--charcoal); font-size: 22px; font-weight: 700; margin-bottom: 8px; }
+    .article-pillar-cta p { color: var(--default-color); font-size: 15.5px; margin-bottom: 20px; }
+    .article-pillar-cta .btn-cta-outline {
+      display: inline-flex; align-items: center; gap: 10px;
+      background: transparent; color: var(--gold-dark); padding: 13px 32px;
+      border: 2px solid var(--gold); border-radius: 50px; font-weight: 600; font-size: 15px;
+      text-decoration: none; transition: all 0.35s ease;
+    }
+    .article-pillar-cta .btn-cta-outline:hover { background: var(--gold-gradient); color: #fff; border-color: transparent; }
+
+    /* ---------- Cluster List Box (untuk halaman pillar) ---------- */
+    .cluster-list-box {
+      background: var(--cream); border-radius: 20px; padding: 32px 36px; margin: 40px 0;
+    }
+    .cluster-list-box .clb-title {
+      font-family: var(--font-heading); font-size: 22px; font-weight: 700;
+      color: var(--charcoal); margin-bottom: 6px; display: flex; align-items: center; gap: 10px;
+    }
+    .cluster-list-box .clb-title i { color: var(--gold-dark); }
+    .cluster-list-box .clb-sub { font-size: 14.5px; color: var(--default-color); margin-bottom: 20px; }
+    .cluster-list-box ul { list-style: none; margin: 0; padding: 0; }
+    .cluster-list-box ul li { margin-bottom: 0; }
+    .cluster-list-box ul li a {
+      display: flex; align-items: center; gap: 10px; padding: 12px 0;
+      border-bottom: 1px solid rgba(201,168,76,0.2); text-decoration: none;
+      color: var(--charcoal); font-weight: 500; font-size: 16px; transition: all 0.25s ease;
+    }
+    .cluster-list-box ul li:last-child a { border-bottom: none; }
+    .cluster-list-box ul li a:hover { color: var(--gold-dark); padding-left: 6px; }
+    .cluster-list-box ul li a i.bi-arrow-right-short { margin-left: auto; font-size: 20px; }
+
+
     /* ---------- Share Buttons ---------- */
     .article-share {
       display: flex; align-items: center; flex-wrap: wrap; gap: 14px;
@@ -690,7 +743,7 @@
           </ol>
         </nav>
 
-        <span class="article-category-badge"><i class="bi bi-tag-fill me-1"></i> Corporate Gift</span>
+        <span class="article-category-badge"><i class="bi bi-tag-fill me-1"></i> Panduan Lengkap &bull; Corporate Gift</span>
 
         <h1>Hampers Corporate dengan Pilihan Isi Premium untuk Berbagai Agenda Perusahaan</h1>
 
@@ -725,10 +778,30 @@
                 <li>Penggunaan branding custom logo pada paket hadiah terbukti meningkatkan brand recall perusahaan secara jangka panjang.</li>
                 <li>Pengiriman mencakup area regional hingga seluruh wilayah Indonesia dengan jaminan keamanan kemasan.</li>
               </ul>
-              <h2>Apa Itu Hampers Corporate dan Mengapa Penting bagi Perusahaan?</h2>
+              <div class="cluster-list-box" data-aos="fade-up">
+                <div class="clb-title"><i class="bi bi-diagram-3-fill"></i> Isi Panduan Lengkap Ini</div>
+                <div class="clb-sub">Artikel-artikel berikut membahas topik ini lebih mendalam dari berbagai sudut:</div>
+                <ul>
+        <li><a href="blog-detail-hampers-corporate-executive-gift-box.html"><i class="bi bi-file-earmark-text"></i> Hampers Corporate Berkonsep Executive Gift Box dengan Produk Pilihan <i class="bi bi-arrow-right-short"></i></a></li>
+        <li><a href="blog-detail-hampers-corporate-palembang-jambi-indonesia.html"><i class="bi bi-file-earmark-text"></i> Hampers Corporate Melayani Palembang, Jambi, dan Seluruh Indonesia <i class="bi bi-arrow-right-short"></i></a></li>
+        <li><a href="blog-detail-hampers-corporate-office-essentials.html"><i class="bi bi-file-earmark-text"></i> Hampers Corporate Berisi Office Essentials yang Siap Custom Logo Perusahaan <i class="bi bi-arrow-right-short"></i></a></li>
+                </ul>
+              </div>
+              <div class="article-toc" data-aos="fade-up">
+                <div class="toc-title"><i class="bi bi-list-ul"></i> Daftar Isi</div>
+                <ol>
+          <li><a href="#apa-itu-hampers-corporate-dan-mengapa-penting-bagi-perusahaan">Apa Itu Hampers Corporate dan Mengapa Penting bagi Perusahaan?</a></li>
+          <li><a href="#apa-saja-pilihan-isi-hampers-corporate-premium-yang-paling-populer">Apa Saja Pilihan Isi Hampers Corporate Premium yang Paling Populer?</a></li>
+          <li><a href="#bagaimana-cara-memilih-hampers-corporate-yang-tepat-sesuai-budget">Bagaimana Cara Memilih Hampers Corporate yang Tepat Sesuai Budget?</a></li>
+          <li><a href="#mengapa-kustomisasi-logo-dan-branding-sangat-penting-pada-hampers">Mengapa Kustomisasi Logo dan Branding Sangat Penting pada Hampers?</a></li>
+          <li><a href="#bagaimana-menjamin-pengiriman-hampers-corporate-aman-ke-berbagai-wilayah">Bagaimana Menjamin Pengiriman Hampers Corporate Aman ke Berbagai Wilayah?</a></li>
+          <li><a href="#kesimpulan">Kesimpulan</a></li>
+                </ol>
+              </div>
+              <h2 id="apa-itu-hampers-corporate-dan-mengapa-penting-bagi-perusahaan">Apa Itu Hampers Corporate dan Mengapa Penting bagi Perusahaan?</h2>
               <p>Hampers corporate adalah bingkisan berisi gabungan produk item pilihan yang dirancang khusus oleh perusahaan untuk tujuan profesional, hubungan relasi, dan branding.</p>
               <p>Pemberian hampers bukan sekadar rutinitas formalitas tahunan, melainkan investasi strategis dalam menjaga komunikasi interpersonal di dunia bisnis. Perusahaan menggunakan bingkisan ini pada berbagai momentum penting, seperti perayaan hari raya keagamaan, peringatan ulang tahun perusahaan (anniversary), pencapaian target bisnis, peluncuran produk baru, hingga program penghargaan masa kerja karyawan.</p>
-              <h2>Apa Saja Pilihan Isi Hampers Corporate Premium yang Paling Populer?</h2>
+              <h2 id="apa-saja-pilihan-isi-hampers-corporate-premium-yang-paling-populer">Apa Saja Pilihan Isi Hampers Corporate Premium yang Paling Populer?</h2>
               <p>Pilihan isi hampers corporate premium meliputi produk kebutuhan kantor eksklusif, perangkat elektronik modern, serta perlengkapan gaya hidup berkualitas tinggi yang tahan lama.</p>
               <h3>Paket Perangkat Kantor Eksklusif (Office Essentials)</h3>
               <p>Paket ini berisi barang-barang pendukung produktivitas kerja yang dibalut material mewah, seperti:</p>
@@ -747,7 +820,7 @@
               </ul>
               <h3>Paket Gaya Hidup dan Kesejahteraan (Wellness &amp; Lifestyle Set)</h3>
               <p>Fokus pada kenyamanan dan kesehatan penerima, terdiri dari cangkir keramik &amp; coaster (set cangkir kopi/teh elegan lengkap dengan tatakan kayu terukir) serta aromaterapi &amp; hand sanitizer premium (lilin aromaterapi atau reed diffuser untuk menciptakan suasana kerja yang rileks).</p>
-              <h2>Bagaimana Cara Memilih Hampers Corporate yang Tepat Sesuai Budget?</h2>
+              <h2 id="bagaimana-cara-memilih-hampers-corporate-yang-tepat-sesuai-budget">Bagaimana Cara Memilih Hampers Corporate yang Tepat Sesuai Budget?</h2>
               <p>Cara memilih hampers corporate yang tepat dilakukan melalui penentuan tujuan pemberian, analisis profil penerima, penyusunan anggaran, serta pengujian kualitas produk sampel.</p>
               <ul>
                 <li><strong>Tentukan tujuan dan profil penerima</strong> — kategorikan penerima ke dalam beberapa tingkatan (tier). Untuk jajaran direksi atau VIP client, alokasikan anggaran lebih tinggi dengan isi berupa executive gift set.</li>
@@ -755,13 +828,21 @@
                 <li><strong>Prioritaskan kualitas di atas kuantitas</strong> — lebih baik memberikan 2 hingga 3 barang berkualitas tinggi yang tahan lama daripada banyak barang tetapi berisiko cepat rusak.</li>
                 <li><strong>Perhatikan ketepatan waktu produksi</strong> — lakukan pemesanan minimal 2 hingga 4 minggu sebelum jadwal acara untuk menghindari keterlambatan alur logistik.</li>
               </ul>
-              <h2>Mengapa Kustomisasi Logo dan Branding Sangat Penting pada Hampers?</h2>
+              <div class="article-cta-box" data-aos="zoom-in">
+                <i class="bi bi-gift-fill cta-icon"></i>
+                <h4>Butuh Rekomendasi Hampers Sesuai Kebutuhan Anda?</h4>
+                <p>Tim GHampers siap bantu memilihkan hampers yang paling sesuai dengan budget dan kebutuhan perusahaan Anda.</p>
+                <a href="https://wa.me/6288989643555?text=Halo%20GHampers%2C%20saya%20ingin%20konsultasi%20soal%20Hampers%20Corporate%20dengan%20Pilihan%20Isi%20Premium%20untuk%20Berbagai%20Agenda%20Perusahaan" target="_blank" rel="noopener" class="btn-cta">
+                  <i class="bi bi-whatsapp"></i> Konsultasi Gratis via WhatsApp
+                </a>
+              </div>
+              <h2 id="mengapa-kustomisasi-logo-dan-branding-sangat-penting-pada-hampers">Mengapa Kustomisasi Logo dan Branding Sangat Penting pada Hampers?</h2>
               <p>Kustomisasi logo pada hampers menciptakan identitas visual profesional yang memperkuat ingatan penerima terhadap merek atau nama perusahaan secara berkelanjutan.</p>
               <p>Branding dapat diterapkan pada berbagai elemen bingkisan, mulai dari hardbox luar, pita pembungkus, kartu ucapan kustom, hingga grafir langsung pada produk isi seperti tumbler atau pen. Teknik kustomisasi modern seperti cetak debossing/embossing pada bahan kulit, grafir laser pada media logam dan kayu, serta UV print pada permukaan plastik atau kaca memastikan logo tampil rapi, elegan, dan tahan lama.</p>
-              <h2>Bagaimana Menjamin Pengiriman Hampers Corporate Aman ke Berbagai Wilayah?</h2>
+              <h2 id="bagaimana-menjamin-pengiriman-hampers-corporate-aman-ke-berbagai-wilayah">Bagaimana Menjamin Pengiriman Hampers Corporate Aman ke Berbagai Wilayah?</h2>
               <p>Menjamin pengiriman hampers corporate aman dilakukan dengan penerapan standar kemasan berlapis, proteksi dampak fisik, serta penggunaan layanan ekspedisi terpercaya.</p>
               <p>Setiap unit bingkisan dilindungi menggunakan bubble wrap tebal, pengganjal internal (dunnage atau shredded paper), serta dus luar berdinding ganda (double wall carton). Untuk pengiriman dalam jumlah besar antar kota atau pulau, pengiriman dilapisi palet kayu guna mencegah kerusakan akibat tumpukan selama proses transit.</p>
-              <h2>Kesimpulan</h2>
+              <h2 id="kesimpulan">Kesimpulan</h2>
               <p>Pengadaan hampers corporate yang sukses membutuhkan perencanaan matang mulai dari penentuan segmentasi penerima, pemilihan produk berkualitas tinggi, hingga teknik kustomisasi logo yang elegan. Memilih penyedia layanan hampers yang berpengalaman serta memiliki jangkauan pengiriman luas merupakan kunci utama untuk memastikan seluruh paket diterima dalam kondisi sempurna dan memberikan kesan positif yang mendalam bagi citra bisnis Anda.</p>
             </div>
 
@@ -799,34 +880,34 @@
 
         <div class="row g-4">
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-            <a href="blog-detail-hampers-premium-perusahaan.html" class="related-post-card">
-              <div class="thumb"><img src="assets/img/blog/hampers-premium-perusahaan-navy-gold.webp" alt="Hampers Premium Perusahaan untuk Menciptakan Kesan Eksklusif di Setiap Momen Corporate"></div>
+            <a href="blog-detail-hampers-corporate-executive-gift-box.html" class="related-post-card">
+              <div class="thumb"><img src="assets/img/blog/executive-gift-box-premium.webp" alt="Hampers Corporate Berkonsep Executive Gift Box dengan Produk Pilihan"></div>
               <div class="card-body">
-                <span class="cat">Hampers Premium</span>
-                <h4>Hampers Premium Perusahaan untuk Menciptakan Kesan Eksklusif di Setiap Momen Corporate</h4>
-                <div class="meta-small">30 Jul 2026 &bull; Meilita Mujayanti</div>
+                <span class="cat">Corporate Gift</span>
+                <h4>Hampers Corporate Berkonsep Executive Gift Box dengan Produk Pilihan</h4>
+                <div class="meta-small">31 Jul 2026 &bull; Mega Anggun</div>
               </div>
             </a>
           </div>
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <a href="blog-detail-premium-office-hampers-karyawan-mitra-bisnis.html" class="related-post-card">
-              <div class="thumb"><img src="assets/img/blog/office-essentials-premium-hampers-karyawan.webp" alt="Premium Office Hampers Berisi Produk Pilihan untuk Karyawan dan Mitra Bisnis"></div>
+            <a href="blog-detail-hampers-corporate-palembang-jambi-indonesia.html" class="related-post-card">
+              <div class="thumb"><img src="assets/img/blog/hampers-corporate-shipping-palembang-jambi.webp" alt="Hampers Corporate Melayani Palembang, Jambi, dan Seluruh Indonesia"></div>
               <div class="card-body">
-                <span class="cat">Hampers Kantor</span>
-                <h4>Premium Office Hampers Berisi Produk Pilihan untuk Karyawan dan Mitra Bisnis</h4>
-                <div class="meta-small">31 Jul 2026 &bull; Meilita Mujayanti</div>
+                <span class="cat">Corporate Gift</span>
+                <h4>Hampers Corporate Melayani Palembang, Jambi, dan Seluruh Indonesia</h4>
+                <div class="meta-small">1 Ags 2026 &bull; Mega Anggun</div>
               </div>
             </a>
           </div>
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <a href="blog-detail-hampers-custom-untuk-perusahaan.html" class="related-post-card">
-              <div class="thumb"><img src="assets/img/blog/hampers-custom-perusahaan-01.webp" alt="Hampers Custom untuk Perusahaan dengan Pilihan Isi yang Fleksibel dan Elegan"></div>
+            <a href="blog-detail-hampers-corporate-office-essentials.html" class="related-post-card">
+              <div class="thumb"><img src="assets/img/blog/office-essentials-hampers-set.webp" alt="Hampers Corporate Berisi Office Essentials yang Siap Custom Logo Perusahaan"></div>
               <div class="card-body">
-                <span class="cat">Hampers Custom</span>
-                <h4>Hampers Custom untuk Perusahaan dengan Pilihan Isi yang Fleksibel dan Elegan</h4>
-                <div class="meta-small">30 Jul 2026 &bull; Nazhima Nadine</div>
+                <span class="cat">Corporate Gift</span>
+                <h4>Hampers Corporate Berisi Office Essentials yang Siap Custom Logo Perusahaan</h4>
+                <div class="meta-small">3 Ags 2026 &bull; Mega Anggun</div>
               </div>
             </a>
           </div>
@@ -866,11 +947,11 @@
         <div class="col-lg-2 col-md-3 footer-links">
           <h4>Kategori Produk</h4>
           <ul>
-            <li><a href="Parcel-Hari-Raya-Korporat.html">Hampers Lebaran</a></li>
-            <li><a href="Artisan-Chocolate-Box-&-Scented-Candle.html">Hampers Natal</a></li>
-            <li><a href="Desk-Calendar-Premium-2027-&-Planner-Book.html">Hampers Tahun Baru</a></li>
-            <li><a href="Tumbler-Custom-Logo.html">Souvenir &amp; Merchandise</a></li>
-            <li><a href="Hampers-Eksekutif.html">Corporate Gift</a></li>
+            <li><a href="produk.html#lebaran">Hampers Lebaran</a></li>
+            <li><a href="produk.html#natal">Hampers Natal</a></li>
+            <li><a href="produk.html#tahunbaru">Hampers Tahun Baru</a></li>
+            <li><a href="produk.html#souvenir">Souvenir &amp; Merchandise</a></li>
+            <li><a href="produk.html#corporate">Corporate Gift</a></li>
           </ul>
         </div>
 

@@ -476,6 +476,59 @@
     }
     .baca-juga-inline .title { font-size: 16px; color: var(--charcoal); font-weight: 600; font-family: var(--font-body); }
 
+    /* ---------- Table of Contents ---------- */
+    .article-toc {
+      background: var(--champagne); border-radius: 16px; padding: 26px 30px;
+      margin: 10px 0 35px; border: 1px solid rgba(201,168,76,0.25);
+    }
+    .article-toc .toc-title {
+      font-family: var(--font-heading); font-size: 19px; font-weight: 700;
+      color: var(--charcoal); margin-bottom: 14px; display: flex; align-items: center; gap: 8px;
+    }
+    .article-toc .toc-title i { color: var(--gold-dark); }
+    .article-toc ol { margin: 0; padding-left: 22px; }
+    .article-toc ol li { margin-bottom: 8px; font-size: 15.5px; }
+    .article-toc ol li a { color: var(--default-color); text-decoration: none; border-bottom: 1px dashed transparent; transition: all 0.25s ease; }
+    .article-toc ol li a:hover { color: var(--gold-dark); border-bottom-color: var(--gold); }
+
+    /* ---------- Pillar CTA (outline style, secondary) ---------- */
+    .article-pillar-cta {
+      border: 2px solid var(--gold); border-radius: 20px; padding: 32px 36px;
+      margin: 40px 0; text-align: center; background: var(--warm-white);
+    }
+    .article-pillar-cta .cta-icon { font-size: 30px; color: var(--gold-dark); margin-bottom: 12px; display: block; }
+    .article-pillar-cta h4 { color: var(--charcoal); font-size: 22px; font-weight: 700; margin-bottom: 8px; }
+    .article-pillar-cta p { color: var(--default-color); font-size: 15.5px; margin-bottom: 20px; }
+    .article-pillar-cta .btn-cta-outline {
+      display: inline-flex; align-items: center; gap: 10px;
+      background: transparent; color: var(--gold-dark); padding: 13px 32px;
+      border: 2px solid var(--gold); border-radius: 50px; font-weight: 600; font-size: 15px;
+      text-decoration: none; transition: all 0.35s ease;
+    }
+    .article-pillar-cta .btn-cta-outline:hover { background: var(--gold-gradient); color: #fff; border-color: transparent; }
+
+    /* ---------- Cluster List Box (untuk halaman pillar) ---------- */
+    .cluster-list-box {
+      background: var(--cream); border-radius: 20px; padding: 32px 36px; margin: 40px 0;
+    }
+    .cluster-list-box .clb-title {
+      font-family: var(--font-heading); font-size: 22px; font-weight: 700;
+      color: var(--charcoal); margin-bottom: 6px; display: flex; align-items: center; gap: 10px;
+    }
+    .cluster-list-box .clb-title i { color: var(--gold-dark); }
+    .cluster-list-box .clb-sub { font-size: 14.5px; color: var(--default-color); margin-bottom: 20px; }
+    .cluster-list-box ul { list-style: none; margin: 0; padding: 0; }
+    .cluster-list-box ul li { margin-bottom: 0; }
+    .cluster-list-box ul li a {
+      display: flex; align-items: center; gap: 10px; padding: 12px 0;
+      border-bottom: 1px solid rgba(201,168,76,0.2); text-decoration: none;
+      color: var(--charcoal); font-weight: 500; font-size: 16px; transition: all 0.25s ease;
+    }
+    .cluster-list-box ul li:last-child a { border-bottom: none; }
+    .cluster-list-box ul li a:hover { color: var(--gold-dark); padding-left: 6px; }
+    .cluster-list-box ul li a i.bi-arrow-right-short { margin-left: auto; font-size: 20px; }
+
+
     /* ---------- Share Buttons ---------- */
     .article-share {
       display: flex; align-items: center; flex-wrap: wrap; gap: 14px;
@@ -690,7 +743,7 @@
           </ol>
         </nav>
 
-        <span class="article-category-badge"><i class="bi bi-tag-fill me-1"></i> Hampers Perusahaan</span>
+        <span class="article-category-badge"><i class="bi bi-tag-fill me-1"></i> Panduan Lengkap &bull; Hampers Perusahaan</span>
 
         <h1>Hampers Perusahaan Bertema Healthy Lifestyle dengan Produk yang Fungsional</h1>
 
@@ -726,12 +779,34 @@
                 <li>Pemilihan isi perlu mempertimbangkan daya tahan produk, kepraktisan, dan relevansi dengan penerima.</li>
                 <li>Kemasan dan branding tetap penting agar hampers menjadi media promosi yang efektif.</li>
               </ul>
-              <h2>Apa Itu Hampers Perusahaan Bertema Healthy Lifestyle</h2>
+              <div class="cluster-list-box" data-aos="fade-up">
+                <div class="clb-title"><i class="bi bi-diagram-3-fill"></i> Isi Panduan Lengkap Ini</div>
+                <div class="clb-sub">Artikel-artikel berikut membahas topik ini lebih mendalam dari berbagai sudut:</div>
+                <ul>
+        <li><a href="blog-detail-hampers-perusahaan-premium-gift-box-branding.html"><i class="bi bi-file-earmark-text"></i> Hampers Perusahaan dalam Premium Gift Box yang Siap Menjadi Media Branding <i class="bi bi-arrow-right-short"></i></a></li>
+        <li><a href="blog-detail-hampers-perusahaan-bandung-bekasi-tangerang-indonesia.html"><i class="bi bi-file-earmark-text"></i> Hampers Perusahaan Melayani Bandung, Bekasi, Tangerang, dan Seluruh Indonesia <i class="bi bi-arrow-right-short"></i></a></li>
+        <li><a href="blog-detail-souvenir-kantor-premium-elegan-branding-perusahaan.html"><i class="bi bi-file-earmark-text"></i> Souvenir Kantor Premium dengan Sentuhan Elegan untuk Meningkatkan Nilai Branding Perusahaan <i class="bi bi-arrow-right-short"></i></a></li>
+                </ul>
+              </div>
+              <div class="article-toc" data-aos="fade-up">
+                <div class="toc-title"><i class="bi bi-list-ul"></i> Daftar Isi</div>
+                <ol>
+          <li><a href="#apa-itu-hampers-perusahaan-bertema-healthy-lifestyle">Apa Itu Hampers Perusahaan Bertema Healthy Lifestyle</a></li>
+          <li><a href="#kenapa-perusahaan-mulai-beralih-ke-tema-healthy-lifestyle">Kenapa Perusahaan Mulai Beralih ke Tema Healthy Lifestyle</a></li>
+          <li><a href="#apa-saja-produk-fungsional-yang-cocok-dimasukkan-ke-hampers-perusahaan">Apa Saja Produk Fungsional yang Cocok Dimasukkan ke Hampers Perusahaan</a></li>
+          <li><a href="#bagaimana-cara-memilih-isi-hampers-agar-tidak-terkesan-asal">Bagaimana Cara Memilih Isi Hampers Agar Tidak Terkesan Asal</a></li>
+          <li><a href="#berapa-budget-ideal-untuk-hampers-perusahaan-bertema-healthy-lifestyle">Berapa Budget Ideal untuk Hampers Perusahaan Bertema Healthy Lifestyle</a></li>
+          <li><a href="#apa-kesalahan-umum-yang-perlu-dihindari-saat-menyiapkan-hampers-perusahaan">Apa Kesalahan Umum yang Perlu Dihindari Saat Menyiapkan Hampers Perusahaan</a></li>
+          <li><a href="#bagaimana-memilih-vendor-hampers-perusahaan-yang-tepat">Bagaimana Memilih Vendor Hampers Perusahaan yang Tepat</a></li>
+          <li><a href="#kesimpulan">Kesimpulan</a></li>
+                </ol>
+              </div>
+              <h2 id="apa-itu-hampers-perusahaan-bertema-healthy-lifestyle">Apa Itu Hampers Perusahaan Bertema Healthy Lifestyle</h2>
               <p>Hampers perusahaan bertema healthy lifestyle adalah paket hadiah korporat yang isinya difokuskan pada produk pendukung kesehatan dan aktivitas sehari-hari, bukan sekadar barang seremonial.</p>
               <p>Konsep ini muncul karena banyak perusahaan ingin hadiah yang dikirimkan benar-benar memberi manfaat, bukan hanya dipajang lalu dilupakan.</p>
               <p>Isi hampers jenis ini biasanya mencakup minuman herbal atau infused water, camilan sehat rendah gula, madu, granola, hingga perlengkapan olahraga ringan seperti botol minum atau matras yoga mini.</p>
               <p>Tema ini cocok digunakan untuk berbagai momen korporat, mulai dari hari ulang tahun perusahaan, penghargaan karyawan, hadiah akhir tahun, hingga apresiasi untuk klien dan mitra bisnis. Karena sifatnya yang fungsional, hampers ini juga lebih mudah diterima oleh penerima dengan berbagai latar belakang usia dan kebutuhan.</p>
-              <h2>Kenapa Perusahaan Mulai Beralih ke Tema Healthy Lifestyle</h2>
+              <h2 id="kenapa-perusahaan-mulai-beralih-ke-tema-healthy-lifestyle">Kenapa Perusahaan Mulai Beralih ke Tema Healthy Lifestyle</h2>
               <p>Perusahaan beralih ke tema healthy lifestyle karena tren kepedulian terhadap kesehatan karyawan semakin menjadi bagian dari budaya kerja modern.</p>
               <p>Beberapa alasan utama meliputi:</p>
               <ul>
@@ -741,7 +816,7 @@
                 <li>Tren gaya hidup sehat yang terus berkembang di kalangan pekerja urban.</li>
               </ul>
               <p>Secara umum, perusahaan yang memberikan hampers bertema kesehatan sering dianggap lebih memperhatikan kualitas hidup karyawan dan mitranya, meski dampak pastinya dapat bervariasi tergantung budaya masing-masing organisasi.</p>
-              <h2>Apa Saja Produk Fungsional yang Cocok Dimasukkan ke Hampers Perusahaan</h2>
+              <h2 id="apa-saja-produk-fungsional-yang-cocok-dimasukkan-ke-hampers-perusahaan">Apa Saja Produk Fungsional yang Cocok Dimasukkan ke Hampers Perusahaan</h2>
               <p>Produk fungsional yang cocok untuk hampers perusahaan adalah barang yang benar-benar dipakai dalam aktivitas harian, seperti minuman sehat, camilan bergizi, dan perlengkapan pendukung produktivitas.</p>
               <p>Beberapa kategori yang umum dipilih:</p>
               <ul>
@@ -751,7 +826,15 @@
                 <li><strong>Perlengkapan kerja pendukung kesehatan</strong>: hand sanitizer alami, masker, atau minyak aromaterapi untuk relaksasi.</li>
               </ul>
               <p>Kombinasi produk ini sebaiknya disesuaikan dengan profil penerima. Untuk karyawan di lingkungan kantor, produk yang mendukung fokus dan energi sepanjang hari umumnya lebih relevan dibanding produk olahraga berat.</p>
-              <h2>Bagaimana Cara Memilih Isi Hampers Agar Tidak Terkesan Asal</h2>
+              <div class="article-cta-box" data-aos="zoom-in">
+                <i class="bi bi-gift-fill cta-icon"></i>
+                <h4>Butuh Rekomendasi Hampers Sesuai Kebutuhan Anda?</h4>
+                <p>Tim GHampers siap bantu memilihkan hampers yang paling sesuai dengan budget dan kebutuhan perusahaan Anda.</p>
+                <a href="https://wa.me/6288989643555?text=Halo%20GHampers%2C%20saya%20ingin%20konsultasi%20soal%20Hampers%20Perusahaan%20Bertema%20Healthy%20Lifestyle%20dengan%20Produk%20yang%20Fungsional" target="_blank" rel="noopener" class="btn-cta">
+                  <i class="bi bi-whatsapp"></i> Konsultasi Gratis via WhatsApp
+                </a>
+              </div>
+              <h2 id="bagaimana-cara-memilih-isi-hampers-agar-tidak-terkesan-asal">Bagaimana Cara Memilih Isi Hampers Agar Tidak Terkesan Asal</h2>
               <p>Cara memilih isi hampers agar tidak terkesan asal adalah dengan menyesuaikan produk pada kebutuhan nyata penerima, bukan sekadar mengikuti tren.</p>
               <p>Langkah yang dapat dilakukan:</p>
               <ul>
@@ -762,7 +845,7 @@
                 <li>Tambahkan sentuhan personal seperti kartu ucapan singkat dari perusahaan.</li>
               </ul>
               <p>Menghindari isi yang terlalu umum atau generik akan membuat hampers terasa lebih dipikirkan dan personal, meski tetap diproduksi dalam jumlah besar.</p>
-              <h2>Berapa Budget Ideal untuk Hampers Perusahaan Bertema Healthy Lifestyle</h2>
+              <h2 id="berapa-budget-ideal-untuk-hampers-perusahaan-bertema-healthy-lifestyle">Berapa Budget Ideal untuk Hampers Perusahaan Bertema Healthy Lifestyle</h2>
               <p>Budget ideal untuk hampers perusahaan bertema healthy lifestyle bergantung pada tujuan pemberian, jumlah penerima, dan kualitas produk yang dipilih, sehingga rentang harganya dapat bervariasi cukup lebar.</p>
               <p>Beberapa faktor yang mempengaruhi budget:</p>
               <ul>
@@ -772,7 +855,7 @@
                 <li>Skala pemesanan, karena pemesanan dalam jumlah besar umumnya mendapat penyesuaian harga.</li>
               </ul>
               <p>Untuk kebutuhan internal seperti apresiasi karyawan, perusahaan biasanya memilih opsi dengan budget menengah agar dapat dibagikan secara merata. Sementara untuk hadiah klien atau mitra strategis, budget cenderung dialokasikan lebih tinggi karena berkaitan langsung dengan citra dan hubungan bisnis jangka panjang.</p>
-              <h2>Apa Kesalahan Umum yang Perlu Dihindari Saat Menyiapkan Hampers Perusahaan</h2>
+              <h2 id="apa-kesalahan-umum-yang-perlu-dihindari-saat-menyiapkan-hampers-perusahaan">Apa Kesalahan Umum yang Perlu Dihindari Saat Menyiapkan Hampers Perusahaan</h2>
               <p>Kesalahan umum yang perlu dihindari saat menyiapkan hampers perusahaan adalah memilih isi yang tidak relevan, mengabaikan kualitas kemasan, dan tidak memperhitungkan waktu produksi.</p>
               <p>Beberapa kesalahan yang sering terjadi:</p>
               <ul>
@@ -783,7 +866,7 @@
                 <li>Tidak menyesuaikan isi dengan segmen penerima, misalnya menyamaratakan hampers untuk klien dan karyawan internal.</li>
               </ul>
               <p>Menghindari kesalahan ini akan membantu perusahaan menghasilkan hampers yang lebih efektif, baik dari sisi kesan maupun efisiensi biaya.</p>
-              <h2>Bagaimana Memilih Vendor Hampers Perusahaan yang Tepat</h2>
+              <h2 id="bagaimana-memilih-vendor-hampers-perusahaan-yang-tepat">Bagaimana Memilih Vendor Hampers Perusahaan yang Tepat</h2>
               <p>Memilih vendor hampers perusahaan yang tepat dilakukan dengan mengevaluasi kualitas produk, fleksibilitas kustomisasi, jangkauan pengiriman, dan rekam jejak layanan sebelumnya.</p>
               <p>Beberapa hal yang perlu diperhatikan:</p>
               <ul>
@@ -792,7 +875,7 @@
                 <li>Jangkauan pengiriman, terutama jika penerima tersebar di beberapa kota.</li>
                 <li>Kejelasan lini waktu produksi dan pengiriman agar tidak terlambat pada momen penting.</li>
               </ul>
-              <h2>Kesimpulan</h2>
+              <h2 id="kesimpulan">Kesimpulan</h2>
               <p>Hampers perusahaan bertema healthy lifestyle dengan produk fungsional memberi nilai lebih dibanding hampers konvensional karena benar-benar dipakai oleh penerima. Pemilihan isi yang tepat, kemasan yang mencerminkan identitas perusahaan, serta vendor yang dapat diandalkan menjadi tiga faktor utama keberhasilan program corporate gifting ini.</p>
             </div>
 
@@ -841,23 +924,23 @@
           </div>
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-            <a href="blog-detail-20-ide-hampers-perusahaan-custom-momen-corporate.html" class="related-post-card">
-              <div class="thumb"><img src="assets/img/blog/hampers-perusahaan-custom-logo.webp" alt="20 Ide Hampers Perusahaan Custom untuk Berbagai Momen Corporate"></div>
+            <a href="blog-detail-hampers-perusahaan-bandung-bekasi-tangerang-indonesia.html" class="related-post-card">
+              <div class="thumb"><img src="assets/img/blog/pengiriman-hampers-perusahaan-berbagai-kota.webp" alt="Hampers Perusahaan Melayani Bandung, Bekasi, Tangerang, dan Seluruh Indonesia"></div>
               <div class="card-body">
-                <span class="cat">Corporate Gift</span>
-                <h4>20 Ide Hampers Perusahaan Custom untuk Berbagai Momen Corporate</h4>
-                <div class="meta-small">30 Jul 2026 &bull; Asher Angelica</div>
+                <span class="cat">Hampers Perusahaan</span>
+                <h4>Hampers Perusahaan Melayani Bandung, Bekasi, Tangerang, dan Seluruh Indonesia</h4>
+                <div class="meta-small">1 Ags 2026 &bull; Anggun Tri Stya Ningrum</div>
               </div>
             </a>
           </div>
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-            <a href="blog-detail-hampers-premium-perusahaan-strategi-apresiasi.html" class="related-post-card">
-              <div class="thumb"><img src="assets/img/blog/hampers-premium-perusahaan.webp" alt="Panduan Lengkap Hampers Premium dengan Isi Produk Berkualitas untuk Momen Apresiasi Perusahaan"></div>
+            <a href="blog-detail-souvenir-kantor-premium-elegan-branding-perusahaan.html" class="related-post-card">
+              <div class="thumb"><img src="assets/img/blog/souvenir-kantor-premium-elegan-branding-perusahaan.webp" alt="Souvenir Kantor Premium dengan Sentuhan Elegan untuk Meningkatkan Nilai Branding Perusahaan"></div>
               <div class="card-body">
-                <span class="cat">Hampers Premium</span>
-                <h4>Panduan Lengkap Hampers Premium dengan Isi Produk Berkualitas untuk Momen Apresiasi Perusahaan</h4>
-                <div class="meta-small">30 Jul 2026 &bull; Hawa Nadira</div>
+                <span class="cat">Hampers Perusahaan</span>
+                <h4>Souvenir Kantor Premium dengan Sentuhan Elegan untuk Meningkatkan Nilai Branding Perusahaan</h4>
+                <div class="meta-small">3 Ags 2026 &bull; Anggun Tri Stya Ningrum</div>
               </div>
             </a>
           </div>
@@ -897,11 +980,11 @@
         <div class="col-lg-2 col-md-3 footer-links">
           <h4>Kategori Produk</h4>
           <ul>
-            <li><a href="Parcel-Hari-Raya-Korporat.html">Hampers Lebaran</a></li>
-            <li><a href="Artisan-Chocolate-Box-&-Scented-Candle.html">Hampers Natal</a></li>
-            <li><a href="Desk-Calendar-Premium-2027-&-Planner-Book.html">Hampers Tahun Baru</a></li>
-            <li><a href="Tumbler-Custom-Logo.html">Souvenir &amp; Merchandise</a></li>
-            <li><a href="Hampers-Eksekutif.html">Corporate Gift</a></li>
+            <li><a href="produk.html#lebaran">Hampers Lebaran</a></li>
+            <li><a href="produk.html#natal">Hampers Natal</a></li>
+            <li><a href="produk.html#tahunbaru">Hampers Tahun Baru</a></li>
+            <li><a href="produk.html#souvenir">Souvenir &amp; Merchandise</a></li>
+            <li><a href="produk.html#corporate">Corporate Gift</a></li>
           </ul>
         </div>
 
